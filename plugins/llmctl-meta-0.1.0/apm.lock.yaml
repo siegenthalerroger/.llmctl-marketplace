@@ -1,0 +1,273 @@
+pack:
+  format: plugin
+  target: claude
+  packed_at: '2026-08-01T20:13:42.553167+00:00'
+  bundle_files:
+    commands/reflect.md: cf13f5acfb8fa061fac1931dd739129331ae24e084f0e0524c34ec53d9a80ed3
+    commands/setup-mcp.md: 36689565ecc29f38b28074a4b44c97a95c18d8f4789cdf054a265361f5f93934
+    instructions/meta.instructions.md: a3d4649e95a83ecd9f9eb92ab0c2baa6340753bd6a106c68bc0a9b9001a2e74f
+    plugin.json: 04f124df29509ffbb7fe94519ae6b572d01c6dbd359996a5d5cb5fdc7144160f
+    skills/meta-agent/SKILL.md: 70fd6db696b061f253bff970d7301916775258dae3da684e749704f79d91a52a
+    skills/meta-agent/references/COMMON_PATTERNS.md: 3a80f5245a4f3b14f8b408af7d2ac2e5c4622a326fc35dd0fb697708c3036fe8
+    skills/meta-agent/references/FRONTMATTER.md: a98a083f8fccddfa84419edd7e090f976976f67aa4353ef9e88e1cfe9b2ecbea
+    skills/meta-agent/references/HANDOFF.md: dd882f98ab5843b68a8c21da676b759049cb4cc4c92493ea7edc5e86c880acca
+    skills/meta-agent/references/SUBAGENT.md: 6965d1267ce8eeb32d90f69d9a8fee6147a0c5f63633357d133a612ddf2152ec
+    skills/meta-agent/references/TOOLS.md: 3d9dd3b0348690c030191a13303ed6760aea2dfda7d0ace2d3c39ed0c008c705
+    skills/meta-hook/SKILL.md: b8d4b0e7fc51255b7714151a80c495cfc497b40411e2b869cbb2af934f6f0234
+    skills/meta-instruction/SKILL.md: 694613f2bf879ca12856f4017a4ddd7d40dfcb63cb3b6f2ea9f6a130ec36684c
+    skills/meta-mcp/SKILL.md: 7935891982f628a8f28fe5d3c34b0959426e9e1bf71b62e0eb75b83df67d3416
+    skills/meta-mcp/references/mcp-configuration.md: 767fa05b1515c07569284da0742b125aec93ca8f0dcaa8a138fafbbda3d0a9b9
+    skills/meta-plugin/SKILL.md: 57a9d3fc919fcc636976163fa367543cefefeb6091703f65f3fe799b342f3dba
+    skills/meta-prompt/SKILL.md: f8cd9cf9ac30c663967b3265ba5faa13299d6ad358969355ec2ca2199c4ef2d5
+    skills/meta-skill/SKILL.md: 2cbb80cb2b97c09d799c93a77f8957d5df1ced1c0ad20b36b778b93581fc2a84
+    skills/meta-skill/references/BODY.md: bc4a8faa70bab40a528c0012af667219f61b3ac79932fc201778c71a3c2404d8
+    skills/meta-skill/references/FRONTMATTER.md: d916dde394ecfd7e283c16fb8f874658a00923874f46762c21996ffaccc1a949
+    skills/meta-skill/references/SPEC.md: edb010620a50ae040a6caf1ea102a6b4e7476def6e97c8b3d53f02c22d06007c
+    skills/meta-skill/references/STRUCTURE.md: 7e449e3682bb05b47b0683f9bcea0cee4095dafa3cd916d389316fe5940301f1
+lockfile_version: '1'
+generated_at: '2026-08-01T20:13:40.901346+00:00'
+dependencies: []
+deployments:
+- kind: project-relative
+  target: claude
+  value: .claude/commands/reflect.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:b5bf33173667d42e8eefd819fe67091b8e62e6fc07fa8a504ecd2be62bb2ffd7
+- kind: project-relative
+  target: claude
+  value: .claude/commands/setup-mcp.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:878f1c270905359555ae4ffc4200ed03759a9b7d6d90f6a179ee0adc09e847ce
+- kind: project-relative
+  target: claude
+  value: .claude/rules/meta.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:080eecce10435cd07c5b8bcac6a0f6ea2b0e0a53a3ebbab0f86e0a851e6c809a
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-agent
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-agent/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:79297f94ea1f2a6a643066540472d4d784ea67d2b3da7ee68ee84eae16f7eec3
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-agent/references/COMMON_PATTERNS.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:21baeca6130ab39d20409d1001b4a138359a804bc2428964d73c13aa1da2c474
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-agent/references/FRONTMATTER.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:760a187f06bb7f85fb3fdda36679b0714976163b384ccc83ac4ebecd2d9d8fc0
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-agent/references/HANDOFF.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:cde346999f06c88033326df5d8d9b3cdfb1829434d38365cdab08528784f8514
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-agent/references/SUBAGENT.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:ff40749634cd74166a8662b412686913f522fbf65fd36b58e52d12eaeb315f91
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-agent/references/TOOLS.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:a12fc72dc187fb0342eed120640ba208213902a586acc5603e57f627f4235cff
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-hook
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-hook/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:4471b97957fa0bbc59b41b164d77f9ffdab9a57c1f8cba4e8c71474d1ec96c56
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-instruction
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-instruction/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:226de77530e70cdb4d4ff31883f0140f790f612b6e0c61d015ee92ecfed6490e
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-mcp
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-mcp/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:c1119e7978bf70f71e1fe14b0f4a26b77a08fc0f39891e06da15ea29b45808fc
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-mcp/references/mcp-configuration.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:1c552b759a19e67ece56b0b58c0ff8001fe1667655ba301cc0c0e5eb3148e9a1
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-plugin
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-plugin/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:f1bbf51dcb577693451b940bf30aee2336200f635dffcd333b78faa7e70972c5
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-prompt
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-prompt/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:a11c2c29e260dec69a207ac54c6f2680c6176970051e0bf80bb9d724f1c1473c
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-skill
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-skill/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:999943243f08f82384d3acf5cd1dd010df80d6e28bc33cde62aaa5af212198bd
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-skill/references/BODY.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:3f78d628e79ac898c51c07e746222844bc1ef9e499409ca76619ee298f1d2bba
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-skill/references/FRONTMATTER.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:f1fb7c679de6b1fe419ffd5854f59e4e7e515cd814a0f15fae87105ccdc65219
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-skill/references/SPEC.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:8cbb9ff8e2169bc2b38c0eacf22a0a35cd4eb7f0f0a36c50466450f24ab0dc20
+- kind: project-relative
+  target: claude
+  value: .claude/skills/meta-skill/references/STRUCTURE.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:c9adbeb291e695f7f2c570cc2471ff474beb2dfd50d2130dbe6204ca60b7ffbd

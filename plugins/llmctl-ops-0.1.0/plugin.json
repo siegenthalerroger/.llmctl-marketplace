@@ -1,0 +1,8 @@
+{
+  "name": "llmctl-ops",
+  "version": "0.1.0",
+  "description": "Ops / infrastructure steering \u2014 Helm, Kubernetes, and OpenTofu/Terraform skills plus path-scoped instructions and cloud/IaC documentation MCP servers.",
+  "author": {
+    "name": "siegenthalerroger"
+  }
+}

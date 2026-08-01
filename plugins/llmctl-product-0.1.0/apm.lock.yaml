@@ -1,0 +1,68 @@
+pack:
+  format: plugin
+  target: claude
+  packed_at: '2026-08-01T20:13:56.957421+00:00'
+  bundle_files:
+    agents/product-manager.agent.md: 9cbfd8b767b580e452f3dec216c16854b749cb5b75ed83e0d31fa8635fa7a99e
+    agents/ux-expert.agent.md: 79b835d2518f1e066daf945400c752a12f2a8b2d3b7a2e7c4a504073cdcf7922
+    plugin.json: f3686acdc913496276b4af1c95028c1c30dc5f210f6f51e104846364141aab89
+    skills/prd-epic/SKILL.md: 8f56737ecb7634da173634d16880bce29c42f42c0a71c8fdd1e18d9b95f40fa4
+    skills/prd-feature/SKILL.md: 6d7aa617d6cf710f80d7851ee84382e4ad346a00015f45913fd643a31767b9b7
+lockfile_version: '1'
+generated_at: '2026-08-01T20:13:55.911008+00:00'
+dependencies: []
+deployments:
+- kind: project-relative
+  target: claude
+  value: .claude/agents/product-manager.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:ff9b043413e574c6916ec862208549ee5c6a8ea2c788ae831464dd72109a3d7c
+- kind: project-relative
+  target: claude
+  value: .claude/agents/ux-expert.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:97b90b08e2574354a626069da91a98658ad6c70db73945c5d374740bb6fd066d
+- kind: project-relative
+  target: claude
+  value: .claude/skills/prd-epic
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/prd-epic/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:29b6f4c0baf3197776b602ccd35db3473c884636bd58c605a835a43032e83b87
+- kind: project-relative
+  target: claude
+  value: .claude/skills/prd-feature
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/prd-feature/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:432b36ea3441987192e9aca36d370b56167ea84a62cd229cca703cf3c6402810

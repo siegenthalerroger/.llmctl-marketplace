@@ -1,0 +1,45 @@
+{
+  "name": "llmctl-marketplace",
+  "description": ".llmctl — personal agent steering: coding, research, authoring, ops, and product.",
+  "owner": {
+    "name": "siegenthalerroger",
+    "url": "https://github.com/siegenthalerroger"
+  },
+  "plugins": [
+    {
+      "name": "llmctl-core",
+      "description": "Core steering skills — research, troubleshooting, batch execution, and Mermaid diagramming.",
+      "version": "0.1.0",
+      "category": "Development",
+      "source": "./plugins/llmctl-core-0.1.0"
+    },
+    {
+      "name": "llmctl-meta",
+      "description": "Meta authoring skills for agents, skills, prompts, instructions, hooks, MCP, and plugins.",
+      "version": "0.1.0",
+      "category": "Development",
+      "source": "./plugins/llmctl-meta-0.1.0"
+    },
+    {
+      "name": "llmctl-workflow",
+      "description": "Code delivery steering — TDD, git worktrees, merge-conflict resolution, code-review reception, and lint pipelines.",
+      "version": "0.1.0",
+      "category": "Development",
+      "source": "./plugins/llmctl-workflow-0.1.0"
+    },
+    {
+      "name": "llmctl-ops",
+      "description": "Ops / infrastructure steering — Helm, Kubernetes, and OpenTofu/Terraform skills.",
+      "version": "0.1.0",
+      "category": "DevOps",
+      "source": "./plugins/llmctl-ops-0.1.0"
+    },
+    {
+      "name": "llmctl-product",
+      "description": "Product steering skills — Epic and Feature PRD authoring.",
+      "version": "0.1.0",
+      "category": "Product",
+      "source": "./plugins/llmctl-product-0.1.0"
+    }
+  ]
+}
