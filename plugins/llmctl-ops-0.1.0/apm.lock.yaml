@@ -1,7 +1,7 @@
 pack:
   format: plugin
   target: claude
-  packed_at: '2026-08-01T20:13:52.033193+00:00'
+  packed_at: '2026-08-01T20:27:45.384305+00:00'
   bundle_files:
     .mcp.json: fbca68af8c9da79348c25f7a775faae8c89ef4fddca93259d91de72181aa6965
     instructions/helm.instructions.md: 5eaa5f190dd961603365c94960bc7aaba0d4091ec021d34e493972dffb14c97e
@@ -29,7 +29,7 @@ pack:
     skills/tf-standards/references/restful-provider.md: b32ef3b02e9c5e990976b12147ba051730b1711aae1f9f6839cd69ad34739353
     skills/tf-standards/references/variables.md: 88075e6314019b828e8cbbb0e72b222b387dbbf630039f884e100678d69c882d
 lockfile_version: '1'
-generated_at: '2026-08-01T20:13:50.621036+00:00'
+generated_at: '2026-08-01T20:27:44.280876+00:00'
 apm_version: 0.26.0
 dependencies:
 - repo_url: antonbabenko/terraform-skill

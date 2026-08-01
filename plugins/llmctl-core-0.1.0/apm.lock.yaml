@@ -1,7 +1,7 @@
 pack:
   format: plugin
   target: claude
-  packed_at: '2026-08-01T20:13:36.779400+00:00'
+  packed_at: '2026-08-01T20:27:31.179668+00:00'
   bundle_files:
     .mcp.json: fc2947f0e3eea9d4f5e1debe546c06d74956b0c327e8e764eb622d1cb0b9e959
     agents/executor-broad.agent.md: 345db9eb50f6ace54f4a85d6e688990e1c1a6c8422502823741b84f2e31b52d4
@@ -23,7 +23,7 @@ pack:
     skills/mermaid-creator/references/unicode-symbols.md: 8ec74b2c86ecd3e274d366ab28012a071c0aa9fe60ef356165a59747623cc3d3
     skills/troubleshooting/SKILL.md: 9abc56d99d7363cd28be40708f4799dbf8df06b209fa67b5cae396e1425bd2d3
 lockfile_version: '1'
-generated_at: '2026-08-01T20:13:35.512122+00:00'
+generated_at: '2026-08-01T20:27:30.237732+00:00'
 apm_version: 0.26.0
 dependencies:
 - repo_url: mattpocock/skills

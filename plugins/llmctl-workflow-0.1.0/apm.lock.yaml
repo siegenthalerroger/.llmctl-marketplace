@@ -1,7 +1,7 @@
 pack:
   format: plugin
   target: claude
-  packed_at: '2026-08-01T20:14:02.937185+00:00'
+  packed_at: '2026-08-01T20:27:54.639651+00:00'
   bundle_files:
     agents/code-reviewer.agent.md: 4b0e838960053dedd2217af841d5eb9ff8047521679234049de31e6a6c2b214d
     plugin.json: a28de4e9861edad5839aa6feb7500a9dd3b99f7997757346f738ba8fdccd2f47
@@ -17,7 +17,7 @@ pack:
     skills/tdd/tests.md: 859f9e592c188fda4fc7277dd180e4ce9c7a2e13f6efe1f6f29eccc9d28c106a
     skills/using-git-worktrees/SKILL.md: 8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd
 lockfile_version: '1'
-generated_at: '2026-08-01T20:14:01.589617+00:00'
+generated_at: '2026-08-01T20:27:53.615017+00:00'
 apm_version: 0.26.0
 dependencies:
 - repo_url: mattpocock/skills

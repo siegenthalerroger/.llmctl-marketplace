@@ -1,7 +1,7 @@
 pack:
   format: plugin
   target: claude
-  packed_at: '2026-08-01T20:13:42.553167+00:00'
+  packed_at: '2026-08-01T20:27:35.919862+00:00'
   bundle_files:
     commands/reflect.md: cf13f5acfb8fa061fac1931dd739129331ae24e084f0e0524c34ec53d9a80ed3
     commands/setup-mcp.md: 36689565ecc29f38b28074a4b44c97a95c18d8f4789cdf054a265361f5f93934
@@ -25,7 +25,7 @@ pack:
     skills/meta-skill/references/SPEC.md: edb010620a50ae040a6caf1ea102a6b4e7476def6e97c8b3d53f02c22d06007c
     skills/meta-skill/references/STRUCTURE.md: 7e449e3682bb05b47b0683f9bcea0cee4095dafa3cd916d389316fe5940301f1
 lockfile_version: '1'
-generated_at: '2026-08-01T20:13:40.901346+00:00'
+generated_at: '2026-08-01T20:27:34.669357+00:00'
 dependencies: []
 deployments:
 - kind: project-relative

@@ -1,7 +1,7 @@
 pack:
   format: plugin
   target: claude
-  packed_at: '2026-08-01T20:13:56.957421+00:00'
+  packed_at: '2026-08-01T20:27:49.767584+00:00'
   bundle_files:
     agents/product-manager.agent.md: 9cbfd8b767b580e452f3dec216c16854b749cb5b75ed83e0d31fa8635fa7a99e
     agents/ux-expert.agent.md: 79b835d2518f1e066daf945400c752a12f2a8b2d3b7a2e7c4a504073cdcf7922
@@ -9,7 +9,7 @@ pack:
     skills/prd-epic/SKILL.md: 8f56737ecb7634da173634d16880bce29c42f42c0a71c8fdd1e18d9b95f40fa4
     skills/prd-feature/SKILL.md: 6d7aa617d6cf710f80d7851ee84382e4ad346a00015f45913fd643a31767b9b7
 lockfile_version: '1'
-generated_at: '2026-08-01T20:13:55.911008+00:00'
+generated_at: '2026-08-01T20:27:48.870925+00:00'
 dependencies: []
 deployments:
 - kind: project-relative
