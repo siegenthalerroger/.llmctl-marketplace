@@ -30,27 +30,27 @@ marketplace:
     strategy: lockstep
   packages:
     - name: llmctl-core
-      source: ./plugins/llmctl-core-0.1.0
-      version: 0.1.0
+      source: ./plugins/llmctl-core-0.2.0
+      version: 0.2.0
       category: Development
       description: Core steering skills — research, troubleshooting, batch execution, and Mermaid diagramming.
     - name: llmctl-meta
-      source: ./plugins/llmctl-meta-0.1.0
-      version: 0.1.0
+      source: ./plugins/llmctl-meta-0.2.0
+      version: 0.2.0
       category: Development
       description: Meta authoring skills for agents, skills, prompts, instructions, hooks, MCP, and plugins.
     - name: llmctl-workflow
-      source: ./plugins/llmctl-workflow-0.1.0
-      version: 0.1.0
+      source: ./plugins/llmctl-workflow-0.2.0
+      version: 0.2.0
       category: Development
       description: Code delivery steering — TDD, git worktrees, merge-conflict resolution, code-review reception, and lint pipelines.
     - name: llmctl-ops
-      source: ./plugins/llmctl-ops-0.1.0
-      version: 0.1.0
+      source: ./plugins/llmctl-ops-0.2.0
+      version: 0.2.0
       category: DevOps
       description: Ops / infrastructure steering — Helm, Kubernetes, and OpenTofu/Terraform skills.
     - name: llmctl-product
-      source: ./plugins/llmctl-product-0.1.0
-      version: 0.1.0
+      source: ./plugins/llmctl-product-0.2.0
+      version: 0.2.0
       category: Product
       description: Product steering skills — Epic and Feature PRD authoring.
