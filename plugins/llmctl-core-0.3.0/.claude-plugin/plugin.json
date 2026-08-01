@@ -1,6 +1,6 @@
 {
   "name": "llmctl-core",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Core agent steering \u2014 domain-neutral planning, exploration and execution agents, research, troubleshooting, diagramming.",
   "author": {
     "name": "siegenthalerroger"

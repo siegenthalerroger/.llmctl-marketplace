@@ -1,17 +1,22 @@
 pack:
   format: plugin
   target: claude
-  packed_at: '2026-08-01T22:07:50.326097+00:00'
+  packed_at: '2026-08-01T23:23:25.079715+00:00'
   bundle_files:
     .mcp.json: fc2947f0e3eea9d4f5e1debe546c06d74956b0c327e8e764eb622d1cb0b9e959
     agents/executor-broad.agent.md: 345db9eb50f6ace54f4a85d6e688990e1c1a6c8422502823741b84f2e31b52d4
     agents/executor-focused.agent.md: 52752be2fed08d4b22651e876d619a9205e1e92d7400a31bd9a5213104c7296c
     agents/explore.agent.md: fb30e843d074b94c2d4821d463ec7892829608d00225abf3955d4185a18b88d6
-    agents/plan.agent.md: b4a150661931b9158bb0f88660e6d057b33cbfdb36635d3a2290f5b7b42ffd5b
-    agents/researcher-advanced.agent.md: ca6eb09a9af8f2f00b617f5c96b331cc30d916259cfe6bc175d3fcc834ee897d
+    agents/plan.agent.md: 3bfbeb9c2dd896b60b37da35b815396589180456113b4b8af06e31956dd83912
+    agents/researcher-advanced.agent.md: 57f1dd79c39bb8c741f87dbdf60c6396dcf03c777b3d773d32c9e8e9d1a0e054
     instructions/documentation.instructions.md: d17285d5255485a33d80ae104d8dddff2403ac336f750832f7a80f2a49531348
     instructions/troubleshooting.instructions.md: 1379340667f95ec4943c541e4ee357ad612d06c3426ff8c0757b134567ba86bd
-    plugin.json: 9397f7d713c3d9ee21a9e2fd90972340ba392e7e06222e7093500d261b18cc29
+    plugin.json: 935c5de14d0cd824bf1f1a970026484b803c5414c18b8d3afa848e02c3d47f42
+    skills/authoring-mermaid-diagrams/SKILL.md: 9b8c8569cef463056aed3f3dfca7a2449e785fafdbbb39aa9bef9798065b5d35
+    skills/authoring-mermaid-diagrams/references/diagram-types.md: f7a3162cc76934bf88129c6a0c8b0483587e4c72cc0977e2b0bc4119499cf3d6
+    skills/authoring-mermaid-diagrams/references/styling-and-theming.md: bbba28e0c07cabf649bb31ea369b84a203270b1db8fb7d3543ad6f41fd673fcc
+    skills/authoring-mermaid-diagrams/references/syntax-recipes.md: 1c674f98b2aff669bf6ed1688d0fd7f9f7ef497066717d82f0bec67ddecda9d4
+    skills/authoring-mermaid-diagrams/scripts/check-mermaid.mjs: 1977836c325c132be7658c14f7797ff033064c9ea8680428c726b5fd8e6743ec
     skills/batch-task-execution/SKILL.md: 007353f6e20a2aa5f04966f99d22f74e49e727ced966529e5e711f430959d783
     skills/complex-research/SKILL.md: 40305f494632572e22ccdc0acef674beee71a8014900d142504023ad4ff7904e
     skills/grill-me/SKILL.md: 6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54
@@ -28,12 +33,9 @@ pack:
     skills/humanizer/agents/openai.yaml: 7b4289413ca3de49c7efc2798ac230e7ae563a6bd7eadf799ee5b2d75c261d25
     skills/humanizer/apm.yml: c1ec04f5a50edc8154d973c7a0812cd9e7c7cc16330589fa5523954192bf6b6f
     skills/humanizer/scripts/validate-package.py: d2c5496ca73a8ce2d3f0cad6681724170d8566bef54d36dfc1e5d3972597b614
-    skills/mermaid-creator/SKILL.md: ae7f3eaa16dfbd140fb8ddb9b453b3156e59008e5eb4c8a0791f473677371e11
-    skills/mermaid-creator/references/mermaid-diagram-guide.md: 8bd34783f72f239fc9b6d7247812f0f547b063923febf5d69016514610346b96
-    skills/mermaid-creator/references/unicode-symbols.md: 8ec74b2c86ecd3e274d366ab28012a071c0aa9fe60ef356165a59747623cc3d3
     skills/troubleshooting/SKILL.md: 9abc56d99d7363cd28be40708f4799dbf8df06b209fa67b5cae396e1425bd2d3
 lockfile_version: '1'
-generated_at: '2026-08-01T22:07:49.378458+00:00'
+generated_at: '2026-08-01T23:23:24.015015+00:00'
 apm_version: 0.26.0
 dependencies:
 - repo_url: blader/humanizer
@@ -138,7 +140,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:d8d5ef89b263968a0320c4a332f72df60d27824b3950b86bfc7d5d468fa4b1ff
+  content_hash: sha256:3bfbeb9c2dd896b60b37da35b815396589180456113b4b8af06e31956dd83912
 - kind: project-relative
   target: claude
   value: .claude/agents/researcher-advanced.md
@@ -147,7 +149,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:9926a70040921c9e09433f01c2d99b116207ace55fc7a10c6a3190ceb157b187
+  content_hash: sha256:57f1dd79c39bb8c741f87dbdf60c6396dcf03c777b3d773d32c9e8e9d1a0e054
 - kind: project-relative
   target: claude
   value: .claude/rules/documentation.md
@@ -166,6 +168,60 @@ deployments:
   - .
   active_owner: .
   content_hash: sha256:80e338947e0ad26a22173a9051b1db8c738810bbeb1d226e21de096dda2ef83a
+- kind: project-relative
+  target: claude
+  value: .claude/skills/authoring-mermaid-diagrams
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/authoring-mermaid-diagrams/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:9b8c8569cef463056aed3f3dfca7a2449e785fafdbbb39aa9bef9798065b5d35
+- kind: project-relative
+  target: claude
+  value: .claude/skills/authoring-mermaid-diagrams/references/diagram-types.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:f7a3162cc76934bf88129c6a0c8b0483587e4c72cc0977e2b0bc4119499cf3d6
+- kind: project-relative
+  target: claude
+  value: .claude/skills/authoring-mermaid-diagrams/references/styling-and-theming.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:bbba28e0c07cabf649bb31ea369b84a203270b1db8fb7d3543ad6f41fd673fcc
+- kind: project-relative
+  target: claude
+  value: .claude/skills/authoring-mermaid-diagrams/references/syntax-recipes.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:1c674f98b2aff669bf6ed1688d0fd7f9f7ef497066717d82f0bec67ddecda9d4
+- kind: project-relative
+  target: claude
+  value: .claude/skills/authoring-mermaid-diagrams/scripts/check-mermaid.mjs
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:1977836c325c132be7658c14f7797ff033064c9ea8680428c726b5fd8e6743ec
 - kind: project-relative
   target: claude
   value: .claude/skills/batch-task-execution
@@ -355,42 +411,6 @@ deployments:
   - blader/humanizer
   active_owner: blader/humanizer
   content_hash: sha256:d2c5496ca73a8ce2d3f0cad6681724170d8566bef54d36dfc1e5d3972597b614
-- kind: project-relative
-  target: claude
-  value: .claude/skills/mermaid-creator
-  runtime: null
-  scope: project
-  owners:
-  - .
-  active_owner: .
-  content_hash: null
-- kind: project-relative
-  target: claude
-  value: .claude/skills/mermaid-creator/SKILL.md
-  runtime: null
-  scope: project
-  owners:
-  - .
-  active_owner: .
-  content_hash: sha256:b5585e2cc39caedbb14d08b4b1a4eb65de81d3889127e8cf8958036a1026f889
-- kind: project-relative
-  target: claude
-  value: .claude/skills/mermaid-creator/references/mermaid-diagram-guide.md
-  runtime: null
-  scope: project
-  owners:
-  - .
-  active_owner: .
-  content_hash: sha256:98565693955d9d13ede23f57f2fe7ea5c8b9e0a57e22c198778dcedfd09b6857
-- kind: project-relative
-  target: claude
-  value: .claude/skills/mermaid-creator/references/unicode-symbols.md
-  runtime: null
-  scope: project
-  owners:
-  - .
-  active_owner: .
-  content_hash: sha256:5ebb0f799d1d4349876d34111f09ba4dc77ed2f7be55838601524206317c4020
 - kind: project-relative
   target: claude
   value: .claude/skills/troubleshooting

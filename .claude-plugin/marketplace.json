@@ -9,9 +9,9 @@
     {
       "name": "llmctl-core",
       "description": "Core steering skills — research, troubleshooting, batch execution, and Mermaid diagramming.",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "category": "Development",
-      "source": "./plugins/llmctl-core-0.2.0"
+      "source": "./plugins/llmctl-core-0.3.0"
     },
     {
       "name": "llmctl-meta",

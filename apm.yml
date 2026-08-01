@@ -30,8 +30,8 @@ marketplace:
     strategy: lockstep
   packages:
     - name: llmctl-core
-      source: ./plugins/llmctl-core-0.2.0
-      version: 0.2.0
+      source: ./plugins/llmctl-core-0.3.0
+      version: 0.3.0
       category: Development
       description: Core steering skills — research, troubleshooting, batch execution, and Mermaid diagramming.
     - name: llmctl-meta
