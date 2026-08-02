@@ -1,15 +1,15 @@
 pack:
   format: plugin
   target: claude
-  packed_at: '2026-08-01T22:08:04.680862+00:00'
+  packed_at: '2026-08-02T21:58:40.990274+00:00'
   bundle_files:
-    agents/product-manager.agent.md: 9cbfd8b767b580e452f3dec216c16854b749cb5b75ed83e0d31fa8635fa7a99e
-    agents/ux-expert.agent.md: 79b835d2518f1e066daf945400c752a12f2a8b2d3b7a2e7c4a504073cdcf7922
-    plugin.json: 8af61ae4962af4b2ad2b218874e6e4a4e4f6408f69224ede1dfe36e45b782fd5
-    skills/prd-epic/SKILL.md: 8f56737ecb7634da173634d16880bce29c42f42c0a71c8fdd1e18d9b95f40fa4
-    skills/prd-feature/SKILL.md: 6d7aa617d6cf710f80d7851ee84382e4ad346a00015f45913fd643a31767b9b7
+    agents/product-manager.agent.md: bdf372ed52e24389eaf85d130b366077002af7f02f3a171d1d85ce4bbaadf6e9
+    agents/ux-expert.agent.md: 17e9d28c99f4e123f91cd73d38e1bf3a4c78b7bb76f98b41f297adea5a15b177
+    plugin.json: 81e7549c06801c73c397b7ec2981d1e52c93be9978765948232fa0d10f9cff00
+    skills/prd-epic/SKILL.md: 40545a3ee725f1798fb898069bf80d1dc0cfb4a7897940e001c099b0c2ab06c0
+    skills/prd-feature/SKILL.md: f0af2bf1de62280a1d70a4ab3453a3bc98b3c44d99fa42d07616b7c586ce11db
 lockfile_version: '1'
-generated_at: '2026-08-01T22:08:03.964442+00:00'
+generated_at: '2026-08-02T21:58:40.312339+00:00'
 dependencies: []
 deployments:
 - kind: project-relative
@@ -20,7 +20,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:ff9b043413e574c6916ec862208549ee5c6a8ea2c788ae831464dd72109a3d7c
+  content_hash: sha256:470e55cd91ce209fb62d181915804d84082e2e932bdce87ec5cbf510aa3904b0
 - kind: project-relative
   target: claude
   value: .claude/agents/ux-expert.md
@@ -29,7 +29,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:97b90b08e2574354a626069da91a98658ad6c70db73945c5d374740bb6fd066d
+  content_hash: sha256:29eee2f5d8af4b9186d845acb69b3cda59664f859521fab1bf0ea2760865ff45
 - kind: project-relative
   target: claude
   value: .claude/skills/prd-epic
@@ -47,7 +47,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:29b6f4c0baf3197776b602ccd35db3473c884636bd58c605a835a43032e83b87
+  content_hash: sha256:63ac16dbc0cb4ebb057c0e9c7e8f426151a5695adb2fce349b7cef3d23329adb
 - kind: project-relative
   target: claude
   value: .claude/skills/prd-feature
@@ -65,4 +65,4 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:432b36ea3441987192e9aca36d370b56167ea84a62cd229cca703cf3c6402810
+  content_hash: sha256:be275e4bd88a37efe119c94ade2c97f97372d0ced99dbe08ef3e6045119aa254

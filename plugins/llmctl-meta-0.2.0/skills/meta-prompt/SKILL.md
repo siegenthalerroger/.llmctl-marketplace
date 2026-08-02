@@ -1,12 +1,13 @@
 ---
 name: "meta-prompt"
 description: "Guidelines for authoring high-quality reusable prompt files with fixed output slots and bounded behavior. ALWAYS load when asked to create, review, or improve stored prompts, design reusable prompt templates, configure prompt variables, or apply prompt engineering techniques. Do not hand-write a prompt file's structure, completion criterion, or scope without this skill — unbounded prompts degrade into vague or runaway behavior. Keywords: prompt, template, variable, input, substitution, few-shot, chain-of-thought, done-when, bounding."
-license: "MIT"
 metadata:
   provenance:
     adaptedFrom:
       - url: "https://github.com/github/awesome-copilot/blob/main/instructions/prompt.instructions.md"
-        took: "Structural echo only. The prompt-file authoring guide framing."
+        license: MIT
+        fidelity: structural-echo
+        took: "The prompt-file authoring guide framing."
     authoritativeSpec:
       - "https://code.visualstudio.com/docs/copilot/customization/prompt-files"
 ---
@@ -76,7 +77,6 @@ Every prompt file should include YAML frontmatter with the following fields:
 | `model`         | Optional    | The language model to use. Defaults to the currently selected model                         |
 | `tools`         | Optional    | List of tool/tool set names available for this prompt                                       |
 | `argument-hint` | Optional    | Hint text shown in chat input to guide user interaction                                     |
-| `metadata.provenance.mirror` | Optional | Canonical upstream URL for exact copies |
 | `metadata.provenance.adaptedFrom` | Optional | URL (string) or list of URLs (array) when adapted/synthesised from upstream sources |
 
 ### Guidelines
@@ -85,7 +85,7 @@ Every prompt file should include YAML frontmatter with the following fields:
 - If `tools` are specified and the current agent is `ask` or `edit`, the default agent becomes `agent`
 - Be explicit about `agent` when tool requirements or side effects matter; do not rely on implicit escalation
 - Preserve any additional metadata (`language`, `tags`, `visibility`, etc.) required by your organization
-- For provenance tracking, use `metadata.provenance` fields (`mirror`, `adaptedFrom`, `authoritativeSpec`); use the same convention for prompts, instructions, skills, and agents
+- For provenance tracking, use `metadata.provenance` fields (`adaptedFrom`, `authoritativeSpec`); use the same convention for prompts, instructions, skills, and agents
 
 ## Cross-Tool Compatibility (Copilot + Claude Code)
 

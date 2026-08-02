@@ -1,12 +1,13 @@
 ---
 name: "meta-skill"
 description: "Guidelines and specifications for authoring high-quality Agent Skills (SKILL.md, frontmatter, references, scripts). ALWAYS invoke when creating, reviewing, or improving an AI agent skill, designing skill structure, writing a skill description, or auditing skill discovery and activation behavior. Do not write or edit a SKILL.md file, its frontmatter, or its references/ folder without first loading this skill. Keywords: skill, SKILL.md, agent skill, frontmatter, description, references, progressive disclosure."
-license: "MIT"
 metadata:
   provenance:
     adaptedFrom:
       - url: "https://github.com/github/awesome-copilot/blob/main/instructions/agent-skills.instructions.md"
-        took: "Structural echo only. The section skeleton for a skill-authoring guide."
+        license: MIT
+        fidelity: structural-echo
+        took: "The section skeleton for a skill-authoring guide."
     authoritativeSpec:
       - "https://agentskills.io/"
       - "https://code.claude.com/docs/en/skills"
@@ -75,7 +76,6 @@ description: "Toolkit and guidelines for an example usecase. Use when asked to d
 | `license` | No | Optional license string or reference |
 | `compatibility` | No | Optional note about environment requirements when truly needed, max 500 characters |
 | `allowed-tools` | No | Experimental spec field for pre-approved tools where supported |
-| `metadata.provenance.mirror` | No | Canonical upstream URL for exact copies |
 | `metadata.provenance.adaptedFrom` | No | URL (string) or list of URLs (array) when adapted/synthesised from upstream sources |
 | `metadata.provenance.authoritativeSpec` | No | Array of URLs for authoritative format specifications (informational only) |
 

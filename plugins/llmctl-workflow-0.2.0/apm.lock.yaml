@@ -1,10 +1,10 @@
 pack:
   format: plugin
   target: claude
-  packed_at: '2026-08-01T22:08:08.860818+00:00'
+  packed_at: '2026-08-02T21:58:44.961997+00:00'
   bundle_files:
-    agents/code-reviewer.agent.md: ba316eeeeac730e36569448f1efe1e8a03380c076195f8d673966b178c007ba7
-    plugin.json: 315c4e6fd03fd8d1f635c89a229fec917aacad3051c9b392305f34a1415386f0
+    agents/code-reviewer.agent.md: e6fba2a32483f5e9097ce79fa771d3a1f3510a2ccfd8dd9ae0e3b76c85717ab0
+    plugin.json: 8f0fcb38f3e0bc5d7d3faec2765f997be73956c2c907a18e2d244cac99cb71c4
     skills/lint-fix/SKILL.md: bd7f86143dbf4ec5eaa27de51633cf67a9e204d0a276bf11f52ef91c2cbd3a44
     skills/lint-fix/references/fix-protocol.md: e8bdaae655da27144c3e8fa3d810908569a0d3659790d279c95d0468e511cea7
     skills/lint-fix/references/tool-detection.md: 1b427e480ad48b955c564bca5a5c3ea0f5b923e893f057b1c22a356820beea1a
@@ -17,7 +17,7 @@ pack:
     skills/tdd/tests.md: 859f9e592c188fda4fc7277dd180e4ce9c7a2e13f6efe1f6f29eccc9d28c106a
     skills/using-git-worktrees/SKILL.md: 8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd
 lockfile_version: '1'
-generated_at: '2026-08-01T22:08:08.044126+00:00'
+generated_at: '2026-08-02T21:58:44.137989+00:00'
 apm_version: 0.26.0
 dependencies:
 - repo_url: mattpocock/skills
@@ -116,7 +116,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:aba738aaa69ee5974265c3042358a82635fcb3d803762b28083ccfe477e97bac
+  content_hash: sha256:9321157e489aa43d4f359ee25be5370b338947315a70737845007e99d631e545
 - kind: project-relative
   target: claude
   value: .claude/skills/lint-fix

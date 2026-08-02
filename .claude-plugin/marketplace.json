@@ -5,6 +5,9 @@
     "name": "siegenthalerroger",
     "url": "https://github.com/siegenthalerroger"
   },
+  "metadata": {
+    "description": ".llmctl — personal agent steering: coding, research, authoring, ops, and product."
+  },
   "plugins": [
     {
       "name": "llmctl-core",

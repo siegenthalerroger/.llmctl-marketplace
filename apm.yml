@@ -2,8 +2,11 @@ name: llmctl-marketplace
 version: 0.1.0
 description: Published plugin marketplace for the .llmctl agent steering collection.
 author: siegenthalerroger
-# No `license:` — .llmctl declares none yet, so the SBOM records NOASSERTION.
-# Deciding the licence is TODO 7a in .llmctl.
+# Mirrors the split licence of .llmctl: CC-BY-SA-4.0 for the markdown/steering
+# content, MIT for scripts and config. Full texts travel in each bundle's
+# LICENSES/ directory; per-file exceptions and third-party attribution are
+# enumerated in the generated THIRD-PARTY-NOTICES.md.
+license: MIT AND CC-BY-SA-4.0
 
 # This repository holds generated artifacts only. Nothing here is authored by
 # hand except this file and the docs:
@@ -20,6 +23,12 @@ author: siegenthalerroger
 
 marketplace:
   description: ".llmctl — personal agent steering: coding, research, authoring, ops, and product."
+  # `claude plugin validate` reads the marketplace description from
+  # `metadata.description`, while APM emits the `description:` above at the top
+  # level. APM passes this block through verbatim, so declaring it here satisfies
+  # the validator without post-processing the generated manifest (TODO 6g).
+  metadata:
+    description: ".llmctl — personal agent steering: coding, research, authoring, ops, and product."
   owner:
     name: siegenthalerroger
     url: https://github.com/siegenthalerroger
@@ -27,7 +36,10 @@ marketplace:
     claude: {}
     codex: {}
   versioning:
-    strategy: lockstep
+    # Packages move independently: a change to `ops` should not bump `core`, or a
+    # version number stops meaning anything. `scripts/release.py` in .llmctl
+    # derives each bump from the conventional commits scoped to that package.
+    strategy: per_package
   packages:
     - name: llmctl-core
       source: ./plugins/llmctl-core-0.3.0
