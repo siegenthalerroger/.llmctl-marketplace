@@ -12,37 +12,44 @@
     {
       "name": "llmctl-core",
       "description": "Core steering skills — research, troubleshooting, batch execution, and Mermaid diagramming.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "category": "Development",
-      "source": "./plugins/llmctl-core-0.3.0"
+      "source": "./plugins/llmctl-core-0.3.1"
     },
     {
       "name": "llmctl-meta",
       "description": "Meta authoring skills for agents, skills, prompts, instructions, hooks, MCP, and plugins.",
-      "version": "0.2.0",
+      "version": "1.0.0",
       "category": "Development",
-      "source": "./plugins/llmctl-meta-0.2.0"
+      "source": "./plugins/llmctl-meta-1.0.0"
     },
     {
       "name": "llmctl-workflow",
       "description": "Code delivery steering — TDD, git worktrees, merge-conflict resolution, code-review reception, and lint pipelines.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "Development",
-      "source": "./plugins/llmctl-workflow-0.2.0"
+      "source": "./plugins/llmctl-workflow-0.2.1"
     },
     {
       "name": "llmctl-ops",
       "description": "Ops / infrastructure steering — Helm, Kubernetes, and OpenTofu/Terraform skills.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "DevOps",
-      "source": "./plugins/llmctl-ops-0.2.0"
+      "source": "./plugins/llmctl-ops-0.2.1"
     },
     {
       "name": "llmctl-product",
       "description": "Product steering skills — Epic and Feature PRD authoring.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "Product",
-      "source": "./plugins/llmctl-product-0.2.0"
+      "source": "./plugins/llmctl-product-0.2.1"
+    },
+    {
+      "name": "llmctl-design",
+      "description": "Design steering — direction-setting, colour, typography, and presentation.",
+      "version": "0.1.0",
+      "category": "Design",
+      "source": "./plugins/llmctl-design-0.1.0"
     }
   ]
 }

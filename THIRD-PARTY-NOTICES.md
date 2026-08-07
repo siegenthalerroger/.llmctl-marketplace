@@ -9,7 +9,7 @@ Plugin bundles here vendor skills authored elsewhere, and adapt content from ups
 
 Each bundle's `apm.lock.yaml` records the upstream `repo_url`, the resolved commit, and a SHA-256 per file, and is the authoritative record of what that bundle actually contains.
 
-## llmctl-core-0.3.0
+## llmctl-core-0.3.1
 
 ### Vendored dependencies
 
@@ -29,7 +29,27 @@ Each bundle's `apm.lock.yaml` records the upstream `repo_url`, the resolved comm
 
 Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
-## llmctl-meta-0.2.0
+## llmctl-design-0.1.0
+
+### Vendored dependencies
+
+| Skill | Upstream | Licence | Copyright | Commit |
+| --- | --- | --- | --- | --- |
+| `dataviz` | [Design-Machines-Studio/depot](https://github.com/Design-Machines-Studio/depot) | Unlicense | Travis Gertz / Design Machines Studio | `ab34ce69fb96` |
+| `identity` | [Design-Machines-Studio/depot](https://github.com/Design-Machines-Studio/depot) | Unlicense | Travis Gertz / Design Machines Studio | `ab34ce69fb96` |
+| `layout` | [Design-Machines-Studio/depot](https://github.com/Design-Machines-Studio/depot) | Unlicense | Travis Gertz / Design Machines Studio | `ab34ce69fb96` |
+
+### Adapted content
+
+| File | Licensed as | Upstream | Upstream licence | Copyright |
+| --- | --- | --- | --- | --- |
+| `skills/colour/SKILL.md` | CC-BY-SA-4.0 | [meodai/skill.color-expert](https://github.com/meodai/skill.color-expert) — [`SKILL.md`](https://github.com/meodai/skill.color-expert/blob/main/SKILL.md) | CC-BY-4.0 (largely-derived) | David Aerne (meodai) |
+| `skills/typography/SKILL.md` | CC-BY-SA-4.0 | [petekp/claude-code-setup](https://github.com/petekp/claude-code-setup) — [`skills/typography/SKILL.md`](https://github.com/petekp/claude-code-setup/blob/main/skills/typography/SKILL.md) | MIT (largely-derived) | Copyright (c) 2024 Pete Petrash |
+| `skills/typography/SKILL.md` | CC-BY-SA-4.0 | [Design-Machines-Studio/depot](https://github.com/Design-Machines-Studio/depot) — [`plugins/design-practice/skills/typography/SKILL.md`](https://github.com/Design-Machines-Studio/depot/blob/main/plugins/design-practice/skills/typography/SKILL.md) | Unlicense (largely-derived) | Travis Gertz / Design Machines Studio |
+
+Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
+
+## llmctl-meta-1.0.0
 
 ### Adapted content
 
@@ -40,7 +60,7 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 
 Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
-## llmctl-ops-0.2.0
+## llmctl-ops-0.2.1
 
 ### Vendored dependencies
 
@@ -48,7 +68,7 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 | --- | --- | --- | --- | --- |
 | `terraform-skill` | [antonbabenko/terraform-skill](https://github.com/antonbabenko/terraform-skill) | Apache-2.0 | Copyright 2026 Anton Babenko | `0a3a4a66e990` |
 
-## llmctl-product-0.2.0
+## llmctl-product-0.2.1
 
 ### Adapted content
 
@@ -62,7 +82,7 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 
 Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
-## llmctl-workflow-0.2.0
+## llmctl-workflow-0.2.1
 
 ### Vendored dependencies
 
@@ -89,21 +109,29 @@ Copyright 2025-2026 Richard Shade
 
 Sources that shaped this work without imposing a condition — an idea, a structure, or a specification cited but not reproduced. Listed as credit, not as a licence claim.
 
-| Source | Licence | How it was used |
-| --- | --- | --- |
-| [agentskills.io](https://agentskills.io/) | Apache-2.0 | inspiration-only |
-| [code.claude.com](https://code.claude.com/docs/en/sub-agents) | Proprietary | inspiration-only |
-| [code.visualstudio.com](https://code.visualstudio.com/docs/agent-customization/custom-agents) | Proprietary | inspiration-only |
-| [developers.openai.com](https://developers.openai.com/api/docs/guides/agents/orchestration) | Proprietary | inspiration-only |
-| [arisng/github-copilot-fc](https://github.com/arisng/github-copilot-fc) | no licence | inspiration-only |
-| [dadav/helm-schema](https://github.com/dadav/helm-schema) | MIT | inspiration-only |
-| [github/awesome-copilot](https://github.com/github/awesome-copilot) | MIT | inspiration-only, structural-echo |
-| [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) | MIT | inspiration-only |
-| [norwoodj/helm-docs](https://github.com/norwoodj/helm-docs) | GPL-3.0 | inspiration-only |
-| [obra/superpowers](https://github.com/obra/superpowers) | MIT | inspiration-only |
-| [helm.sh](https://helm.sh/docs/topics/charts/) | MIT | inspiration-only |
-| [mermaid.js.org](https://mermaid.js.org/intro/syntax-reference.html) | MIT | inspiration-only |
-| [microsoft.github.io](https://microsoft.github.io/apm/producer/author-primitives/hooks-and-commands/) | Proprietary | inspiration-only |
+| Source | Attribution | Licence | How it was used |
+| --- | --- | --- | --- |
+| [agentskills.io](https://agentskills.io/) | Copyright the Agent Skills authors | Apache-2.0 | inspiration-only |
+| [code.claude.com](https://code.claude.com/docs/en/sub-agents) | Anthropic | Proprietary | inspiration-only |
+| [code.visualstudio.com](https://code.visualstudio.com/docs/agent-customization/custom-agents) | Microsoft Corporation | Proprietary | inspiration-only |
+| [developers.openai.com](https://developers.openai.com/api/docs/guides/agents/orchestration) | OpenAI | Proprietary | inspiration-only |
+| [Myndex/apca-w3](https://github.com/Myndex/apca-w3) | Copyright © 2019-2023 Andrew Somers and/or Myndex™. All Rights Reserved. | W3C-20150513 | inspiration-only |
+| [Vinayak-Shukla-03/anti-ai-slop](https://github.com/Vinayak-Shukla-03/anti-ai-slop) | Copyright (c) 2026 Vinayak Shukla | MIT | inspiration-only |
+| [arisng/github-copilot-fc](https://github.com/arisng/github-copilot-fc) | arisng | no licence | inspiration-only |
+| [dadav/helm-schema](https://github.com/dadav/helm-schema) | Copyright (c) 2023 dadav | MIT | inspiration-only |
+| [funboy322/avoid-ai-design](https://github.com/funboy322/avoid-ai-design) | Copyright (c) 2026 ungspirit | MIT | inspiration-only |
+| [github/awesome-copilot](https://github.com/github/awesome-copilot) | Copyright GitHub, Inc. | MIT | inspiration-only, structural-echo |
+| [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) | Copyright (c) 2014 - 2022 Knut Sveidqvist | MIT | inspiration-only |
+| [norwoodj/helm-docs](https://github.com/norwoodj/helm-docs) | norwoodj/helm-docs contributors | GPL-3.0 | inspiration-only |
+| [obra/superpowers](https://github.com/obra/superpowers) | Copyright (c) 2025 Jesse Vincent | MIT | inspiration-only |
+| [yetone/kill-ai-slop](https://github.com/yetone/kill-ai-slop) | yetone/kill-ai-slop contributors | Apache-2.0 | inspiration-only |
+| [guykawasaki.com](https://guykawasaki.com/the_102030_rule/) | Guy Kawasaki, *The 10/20/30 Rule of PowerPoint* | no licence | inspiration-only |
+| [helm.sh](https://helm.sh/docs/topics/charts/) | Copyright (c) 2017 Microsoft Corporation | MIT | inspiration-only |
+| [mermaid.js.org](https://mermaid.js.org/intro/syntax-reference.html) | Copyright (c) 2014 - 2022 Knut Sveidqvist | MIT | inspiration-only |
+| [microsoft.github.io](https://microsoft.github.io/apm/producer/author-primitives/hooks-and-commands/) | Microsoft Corporation | Proprietary | inspiration-only |
+| [openlibrary.org/isbn/9780273710516](https://openlibrary.org/isbn/9780273710516) | Barbara Minto, *The Pyramid Principle*, 3rd ed. (Pearson, 2009) | no licence | inspiration-only |
+| [openlibrary.org/isbn/9780321811981](https://openlibrary.org/isbn/9780321811981) | Garr Reynolds, *Presentation Zen*, 2nd ed. (New Riders, 2012) | no licence | inspiration-only |
+| [openlibrary.org/isbn/9780470632017](https://openlibrary.org/isbn/9780470632017) | Nancy Duarte, *Resonate* (Wiley, 2010) | no licence | inspiration-only |
 
 ## Licence texts
 
