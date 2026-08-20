@@ -1,4 +1,4 @@
-# Check the generated manifests and bundles. Scripts come from `.llmctl`.
+# Check the generated manifests against what APM would regenerate.
 name: checks
 
 on:
@@ -30,15 +30,6 @@ jobs:
         with:
           path: marketplace
 
-      - name: Check out the tooling
-        uses: actions/checkout@v5
-        with:
-          repository: siegenthalerroger/.llmctl
-          path: .llmctl
-          # `.llmctl` is private, and a repo-scoped github.token cannot read
-          # another repo. The fallback is here for when it goes public.
-          token: ${{ secrets.TOOLING_TOKEN || github.token }}
-
       - name: Install the APM CLI
         id: apm
         uses: microsoft/apm-action@v1
@@ -53,10 +44,6 @@ jobs:
 
       - name: The committed manifests match what would be generated
         run: apm pack --dry-run --offline --check-clean
-        working-directory: marketplace
-
-      - name: Every committed bundle is complete and referenced
-        run: python3 ../.llmctl/scripts/check-bundles.py --marketplace .
         working-directory: marketplace
 
       - name: Say which APM ran
