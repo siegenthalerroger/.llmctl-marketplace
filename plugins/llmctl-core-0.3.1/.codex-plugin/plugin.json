@@ -1,0 +1,24 @@
+{
+  "name": "llmctl-core",
+  "version": "0.3.1",
+  "description": "Core agent steering \u2014 domain-neutral planning, exploration and execution agents, research, troubleshooting, diagramming.",
+  "author": {
+    "name": "siegenthalerroger"
+  },
+  "license": "MIT AND CC-BY-SA-4.0",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "llmctl-core",
+    "shortDescription": "Core agent steering \u2014 domain-neutral planning, exploration and execution agents, research, troubleshooting, diagramming.",
+    "longDescription": "Core agent steering \u2014 domain-neutral planning, exploration and execution agents, research, troubleshooting, diagramming.",
+    "developerName": "siegenthalerroger",
+    "category": "Development",
+    "capabilities": [
+      "Skills",
+      "Agents",
+      "Instructions",
+      "MCP"
+    ]
+  }
+}

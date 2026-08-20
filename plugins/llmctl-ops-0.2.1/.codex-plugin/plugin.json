@@ -1,0 +1,23 @@
+{
+  "name": "llmctl-ops",
+  "version": "0.2.1",
+  "description": "Ops / infrastructure steering \u2014 Helm, Kubernetes, and OpenTofu/Terraform skills plus path-scoped instructions and cloud/IaC documentation MCP servers.",
+  "author": {
+    "name": "siegenthalerroger"
+  },
+  "license": "MIT AND CC-BY-SA-4.0",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "llmctl-ops",
+    "shortDescription": "Ops / infrastructure steering \u2014 Helm, Kubernetes, and OpenTofu/Terraform skills plus path-scoped instructions and cloud/IaC documentation MCP servers.",
+    "longDescription": "Ops / infrastructure steering \u2014 Helm, Kubernetes, and OpenTofu/Terraform skills plus path-scoped instructions and cloud/IaC documentation MCP servers.",
+    "developerName": "siegenthalerroger",
+    "category": "DevOps",
+    "capabilities": [
+      "Skills",
+      "Instructions",
+      "MCP"
+    ]
+  }
+}
