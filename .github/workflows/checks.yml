@@ -1,0 +1,66 @@
+# Check the generated manifests and bundles. Scripts come from `.llmctl`.
+name: checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    # Monday 06:41 UTC. Catches an APM release that changes what a manifest
+    # would regenerate to, without waiting for the next release to find out.
+    - cron: "41 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  manifests:
+    runs-on: ubuntu-latest
+    env:
+      # Ensure apm commands use authenticated Github API calls.
+      GITHUB_APM_PAT: ${{ github.token }}
+    steps:
+      - name: Check out this marketplace
+        uses: actions/checkout@v5
+        with:
+          path: marketplace
+
+      - name: Check out the tooling
+        uses: actions/checkout@v5
+        with:
+          repository: siegenthalerroger/.llmctl
+          path: .llmctl
+          # `.llmctl` is private, and a repo-scoped github.token cannot read
+          # another repo. The fallback is here for when it goes public.
+          token: ${{ secrets.TOOLING_TOKEN || github.token }}
+
+      - name: Install the APM CLI
+        id: apm
+        uses: microsoft/apm-action@v1
+        with:
+          setup-only: true
+          # Ensure breaking changes are caught early.
+          apm-version: latest
+
+      - name: Versions agree with the manifest
+        run: apm pack --dry-run --offline --check-versions
+        working-directory: marketplace
+
+      - name: The committed manifests match what would be generated
+        run: apm pack --dry-run --offline --check-clean
+        working-directory: marketplace
+
+      - name: Every committed bundle is complete and referenced
+        run: python3 ../.llmctl/scripts/check-bundles.py --marketplace .
+        working-directory: marketplace
+
+      - name: Say which APM ran
+        # `apm-version: latest` floats, so a red Monday has to name the
+        # version that did it.
+        if: always()
+        run: echo "APM ${{ steps.apm.outputs.apm-version }}" >> "$GITHUB_STEP_SUMMARY"
