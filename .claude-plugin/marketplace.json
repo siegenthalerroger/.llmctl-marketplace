@@ -17,13 +17,6 @@
       "source": "./plugins/llmctl-core-0.3.1"
     },
     {
-      "name": "llmctl-meta",
-      "description": "Meta authoring skills for agents, skills, prompts, instructions, hooks, MCP, and plugins.",
-      "version": "1.0.0",
-      "category": "Development",
-      "source": "./plugins/llmctl-meta-1.0.0"
-    },
-    {
       "name": "llmctl-workflow",
       "description": "Code delivery steering — TDD, git worktrees, merge-conflict resolution, code-review reception, and lint pipelines.",
       "version": "0.2.1",
