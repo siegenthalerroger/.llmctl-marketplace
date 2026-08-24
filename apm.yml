@@ -46,11 +46,6 @@ marketplace:
       version: 0.3.1
       category: Development
       description: Core steering skills — research, troubleshooting, batch execution, and Mermaid diagramming.
-    - name: llmctl-meta
-      source: ./plugins/llmctl-meta-1.0.0
-      version: 1.0.0
-      category: Development
-      description: Meta authoring skills for agents, skills, prompts, instructions, hooks, MCP, and plugins.
     - name: llmctl-workflow
       source: ./plugins/llmctl-workflow-0.2.1
       version: 0.2.1

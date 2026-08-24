@@ -17,18 +17,6 @@
       "category": "Development"
     },
     {
-      "name": "llmctl-meta",
-      "source": {
-        "source": "local",
-        "path": "./plugins/llmctl-meta-1.0.0"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Development"
-    },
-    {
       "name": "llmctl-workflow",
       "source": {
         "source": "local",

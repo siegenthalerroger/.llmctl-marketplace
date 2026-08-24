@@ -49,17 +49,6 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 
 Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
-## llmctl-meta-1.0.0
-
-### Adapted content
-
-| File | Licensed as | Upstream | Upstream licence | Copyright |
-| --- | --- | --- | --- | --- |
-| `skills/meta-instruction/SKILL.md` | CC-BY-SA-4.0 | [netresearch/agent-rules-skill](https://github.com/netresearch/agent-rules-skill) — [`skills/agent-rules/SKILL.md`](https://github.com/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md) | CC-BY-SA-4.0 (partly-derived) | Copyright (c) 2025-2026 Netresearch DTT GmbH |
-| `skills/meta-skill/references/SPEC.md` | Apache-2.0 | [agentskills/agentskills](https://github.com/agentskills/agentskills) — [`docs/specification.mdx`](https://github.com/agentskills/agentskills/blob/main/docs/specification.mdx) | Apache-2.0 (largely-derived) | Copyright the Agent Skills authors |
-
-Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
-
 ## llmctl-ops-0.2.1
 
 ### Vendored dependencies
