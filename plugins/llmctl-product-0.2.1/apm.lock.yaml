@@ -1,15 +1,15 @@
 pack:
   format: plugin
   target: claude
-  packed_at: '2026-08-07T10:47:06.526621+00:00'
+  packed_at: '2026-08-24T14:19:24.070333+00:00'
   bundle_files:
-    agents/product-manager.agent.md: bdf372ed52e24389eaf85d130b366077002af7f02f3a171d1d85ce4bbaadf6e9
-    agents/ux-expert.agent.md: 17e9d28c99f4e123f91cd73d38e1bf3a4c78b7bb76f98b41f297adea5a15b177
-    plugin.json: 88952d5d7c531abec016e8d5fde690e8855896f812d782ddce94ec9daddddfe5
-    skills/prd-epic/SKILL.md: 40545a3ee725f1798fb898069bf80d1dc0cfb4a7897940e001c099b0c2ab06c0
-    skills/prd-feature/SKILL.md: f0af2bf1de62280a1d70a4ab3453a3bc98b3c44d99fa42d07616b7c586ce11db
+    agents/product-manager.agent.md: 470e55cd91ce209fb62d181915804d84082e2e932bdce87ec5cbf510aa3904b0
+    agents/ux-expert.agent.md: 29eee2f5d8af4b9186d845acb69b3cda59664f859521fab1bf0ea2760865ff45
+    plugin.json: e450f2205f2c76ec2919f27b8cc520a142a8959386fc9424a1f3f77da753ed85
+    skills/prd-epic/SKILL.md: 63ac16dbc0cb4ebb057c0e9c7e8f426151a5695adb2fce349b7cef3d23329adb
+    skills/prd-feature/SKILL.md: be275e4bd88a37efe119c94ade2c97f97372d0ced99dbe08ef3e6045119aa254
 lockfile_version: '1'
-generated_at: '2026-08-07T10:47:05.718795+00:00'
+generated_at: '2026-08-24T14:19:23.384871+00:00'
 dependencies: []
 deployments:
 - kind: project-relative

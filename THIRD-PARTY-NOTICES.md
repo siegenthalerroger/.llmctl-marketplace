@@ -9,7 +9,7 @@ Plugin bundles here vendor skills authored elsewhere, and adapt content from ups
 
 Each bundle's `apm.lock.yaml` records the upstream `repo_url`, the resolved commit, and a SHA-256 per file, and is the authoritative record of what that bundle actually contains.
 
-## llmctl-core-0.3.1
+## llmctl-core-0.4.0
 
 ### Vendored dependencies
 
@@ -26,6 +26,8 @@ Each bundle's `apm.lock.yaml` records the upstream `repo_url`, the resolved comm
 | `agents/explore.agent.md` | CC-BY-SA-4.0 | [microsoft/vscode](https://github.com/microsoft/vscode) — [`extensions/copilot/src/extension/agents/vscode-node/exploreAgentProvider.ts`](https://github.com/microsoft/vscode/blob/main/extensions/copilot/src/extension/agents/vscode-node/exploreAgentProvider.ts) | MIT (largely-derived) | Copyright (c) 2015 - present Microsoft Corporation |
 | `agents/plan.agent.md` | CC-BY-SA-4.0 | [microsoft/vscode](https://github.com/microsoft/vscode) — [`extensions/copilot/src/extension/agents/vscode-node/planAgentProvider.ts`](https://github.com/microsoft/vscode/blob/main/extensions/copilot/src/extension/agents/vscode-node/planAgentProvider.ts) | MIT (largely-derived) | Copyright (c) 2015 - present Microsoft Corporation |
 | `skills/batch-task-execution/SKILL.md` | CC-BY-SA-4.0 | [obra/superpowers](https://github.com/obra/superpowers) — [`skills/subagent-driven-development/SKILL.md`](https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md) | MIT (partly-derived) | Copyright (c) 2025 Jesse Vincent |
+| `skills/meta-steering/SKILL.md` | CC-BY-SA-4.0 | [netresearch/agent-rules-skill](https://github.com/netresearch/agent-rules-skill) — [`skills/agent-rules/SKILL.md`](https://github.com/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md) | CC-BY-SA-4.0 (partly-derived) | Copyright (c) 2025-2026 Netresearch DTT GmbH |
+| `skills/meta-steering/references/skill-spec.md` | Apache-2.0 | [agentskills/agentskills](https://github.com/agentskills/agentskills) — [`docs/specification.mdx`](https://github.com/agentskills/agentskills/blob/main/docs/specification.mdx) | Apache-2.0 (largely-derived) | Copyright the Agent Skills authors |
 
 Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
@@ -100,19 +102,27 @@ Sources that shaped this work without imposing a condition — an idea, a struct
 
 | Source | Attribution | Licence | How it was used |
 | --- | --- | --- | --- |
+| [agents.md](https://agents.md/) | — | not recorded | inspiration-only |
+| [agentskills.io](https://agentskills.io/) | Copyright the Agent Skills authors | Apache-2.0 | inspiration-only |
+| [code.claude.com](https://code.claude.com/docs/en/hooks) | Anthropic | Proprietary | inspiration-only |
+| [code.visualstudio.com](https://code.visualstudio.com/docs/agent-customization/hooks) | Microsoft Corporation | Proprietary | inspiration-only |
+| [developers.openai.com](https://developers.openai.com/api/docs/guides/agents/orchestration) | OpenAI | Proprietary | inspiration-only |
+| [docs.github.com](https://docs.github.com/en/copilot/reference/custom-agents-configuration) | GitHub, Inc. | Proprietary | inspiration-only |
 | [Myndex/apca-w3](https://github.com/Myndex/apca-w3) | Copyright © 2019-2023 Andrew Somers and/or Myndex™. All Rights Reserved. | W3C-20150513 | inspiration-only |
 | [Vinayak-Shukla-03/anti-ai-slop](https://github.com/Vinayak-Shukla-03/anti-ai-slop) | Copyright (c) 2026 Vinayak Shukla | MIT | inspiration-only |
 | [arisng/github-copilot-fc](https://github.com/arisng/github-copilot-fc) | arisng | no licence | inspiration-only |
 | [dadav/helm-schema](https://github.com/dadav/helm-schema) | Copyright (c) 2023 dadav | MIT | inspiration-only |
 | [funboy322/avoid-ai-design](https://github.com/funboy322/avoid-ai-design) | Copyright (c) 2026 ungspirit | MIT | inspiration-only |
-| [github/awesome-copilot](https://github.com/github/awesome-copilot) | Copyright GitHub, Inc. | MIT | inspiration-only |
+| [github/awesome-copilot](https://github.com/github/awesome-copilot) | Copyright GitHub, Inc. | MIT | inspiration-only, structural-echo |
 | [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) | Copyright (c) 2014 - 2022 Knut Sveidqvist | MIT | inspiration-only |
 | [norwoodj/helm-docs](https://github.com/norwoodj/helm-docs) | norwoodj/helm-docs contributors | GPL-3.0 | inspiration-only |
 | [obra/superpowers](https://github.com/obra/superpowers) | Copyright (c) 2025 Jesse Vincent | MIT | inspiration-only |
 | [yetone/kill-ai-slop](https://github.com/yetone/kill-ai-slop) | yetone/kill-ai-slop contributors | Apache-2.0 | inspiration-only |
 | [guykawasaki.com](https://guykawasaki.com/the_102030_rule/) | Guy Kawasaki, *The 10/20/30 Rule of PowerPoint* | no licence | inspiration-only |
 | [helm.sh](https://helm.sh/docs/topics/charts/) | Copyright (c) 2017 Microsoft Corporation | MIT | inspiration-only |
+| [learn.chatgpt.com](https://learn.chatgpt.com/docs/extend/mcp) | — | not recorded | inspiration-only |
 | [mermaid.js.org](https://mermaid.js.org/intro/syntax-reference.html) | Copyright (c) 2014 - 2022 Knut Sveidqvist | MIT | inspiration-only |
+| [microsoft.github.io](https://microsoft.github.io/apm/producer/author-primitives/hooks-and-commands/) | Microsoft Corporation | Proprietary | inspiration-only |
 | [openlibrary.org/isbn/9780273710516](https://openlibrary.org/isbn/9780273710516) | Barbara Minto, *The Pyramid Principle*, 3rd ed. (Pearson, 2009) | no licence | inspiration-only |
 | [openlibrary.org/isbn/9780321811981](https://openlibrary.org/isbn/9780321811981) | Garr Reynolds, *Presentation Zen*, 2nd ed. (New Riders, 2012) | no licence | inspiration-only |
 | [openlibrary.org/isbn/9780470632017](https://openlibrary.org/isbn/9780470632017) | Nancy Duarte, *Resonate* (Wiley, 2010) | no licence | inspiration-only |

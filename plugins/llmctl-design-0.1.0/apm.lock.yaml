@@ -1,9 +1,9 @@
 pack:
   format: plugin
   target: claude
-  packed_at: '2026-08-07T10:46:49.722426+00:00'
+  packed_at: '2026-08-24T14:19:18.015670+00:00'
   bundle_files:
-    plugin.json: 3a413de2ad30f29523092832acfb68570ee1696655083b88cde9bb9fcd51ed48
+    plugin.json: 2d942c91439ed94e1b651a40ec98725d0686a6f7f9bb64a21e55bc65b624c2e5
     skills/colour/SKILL.md: 1dd88ac2b8f6697b75f81e282d5d2fda29c81328c72f752a7c92098c85604dff
     skills/colour/references/data-encoding.md: 9578d597c11319166cd5e5ed31675bdbd9839b16a7f1e96279cf33c88977fd0a
     skills/colour/references/implementation.md: 6934ca5474b12d0b0722c562f8c6be1ac7148c0a3aceed4fe231219d6936f767
@@ -34,8 +34,8 @@ pack:
     skills/typography/references/web-typography.md: 4457440d1d40aad905662c464411f3a30e6e20caece1c60e62a5e639d8ac3104
     skills/typography/scripts/check-type.py: 2e17ca142595b4b354e5d4716b93d3ba3244acc19781b61d8e29cdc00d722617
 lockfile_version: '1'
-generated_at: '2026-08-07T10:46:48.423756+00:00'
-apm_version: 0.27.0
+generated_at: '2026-08-24T14:19:17.136690+00:00'
+apm_version: 0.28.0
 dependencies:
 - repo_url: design-machines-studio/depot
   materialization_repo_url: Design-Machines-Studio/depot

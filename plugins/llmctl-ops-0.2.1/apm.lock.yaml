@@ -1,18 +1,18 @@
 pack:
   format: plugin
   target: claude
-  packed_at: '2026-08-07T10:47:02.730081+00:00'
+  packed_at: '2026-08-24T14:19:22.150079+00:00'
   bundle_files:
-    .mcp.json: fbca68af8c9da79348c25f7a775faae8c89ef4fddca93259d91de72181aa6965
-    instructions/helm.instructions.md: 5eaa5f190dd961603365c94960bc7aaba0d4091ec021d34e493972dffb14c97e
-    instructions/tf.instructions.md: 5656049dfd62917799c30db099f5089457736d8a6c48bb022bd631b3e23b188c
-    plugin.json: 5af9dcc041983f9da7aa4d83685e379a51773b20cee33bc985e6aa0192069c5e
-    skills/helm-charts/SKILL.md: 374f43aabdbe04276a374efbf7e855db3874f6393af76fea7d9bceb8bb3a3d37
-    skills/helm-templates/SKILL.md: 0af1cfee49b3b97354e16ff2febe5d49dae913a8c52d01109431fb054f7754f9
-    skills/helm-values/SKILL.md: 4f3cb273768453fd8630f104baee8db1ffc0a23f97bc220001a7e65073882e12
-    skills/helm-values/references/helm-docs-comments.md: f53e5362ad5f65fc737b470793025d7ac7ec26090bb3c9dc1794d66593ce1221
-    skills/helm-values/references/helm-schema-annotations.md: 020a319c211af2e0686c4b32c42ed1e47f9539159212c60c1a09fdc7eb64c4bd
-    skills/k8s-standards/SKILL.md: 1430f66879cc354e42b7f067b9a86bd388b4e28b753c867fd9fde00120545cae
+    .mcp.json: aa1f61e98e478e28662eeeff7915ed73bf3cfa611f17025d3b4602545417bff6
+    instructions/helm.instructions.md: 9e824c38094b9d921e40d65eed6dfc76ba65a0205e66662bafd4164bcec79b8c
+    instructions/tf.instructions.md: af6761d85d62d98389b54782e2b048e107b1767342948519e4c7bd5ee91fc9fa
+    plugin.json: f0e7d0fb8928bb0fbf805785d2f37efa45446ca5f5feb540c626c2a5560adcfc
+    skills/helm-charts/SKILL.md: 32ec3732dcfba90ae84404577b5cbb20fb9bf364ceed7a9de1b4b5073437879d
+    skills/helm-templates/SKILL.md: 93f55cd7a88f79a23b764fc9928b6b14beec1da9c1b059779da1c0558e3634b0
+    skills/helm-values/SKILL.md: 0505401ad7bdc324d02f3bf973aab6d2437eb98f18076c32a7dc3badf9182562
+    skills/helm-values/references/helm-docs-comments.md: 7b09e6ec85f3b2f1340c3e89566e1ed0d96e7ed2f8c6f8cdfd8bf28e96bb9138
+    skills/helm-values/references/helm-schema-annotations.md: d2a9f6b818b9f64490ada9e8f82de89e17bb3e06abd188c43256481a17d5213e
+    skills/k8s-standards/SKILL.md: b8ea124dbd41531b42281054d55e12d086a7c7c1422a0d5dc323f6d73bc61f2b
     skills/terraform-skill/SKILL.md: 70c0038375d3738b4ecfca1016add39ef48a206cbed653c9a1cb336026a5e384
     skills/terraform-skill/references/ci-cd-workflows.md: 3ebb9a1d1e88c1f321381a0c179b9f9701e5dc0376bd6fac889feac4dd2de6c4
     skills/terraform-skill/references/code-intelligence-lsp.md: ee5f167d265948960f37dddb393e8473f67090e68e1f2be612db9d1c02e7434e
@@ -22,15 +22,15 @@ pack:
     skills/terraform-skill/references/security-compliance.md: 9db93c0a08001ec759b380855afd9378a9b6f452c0f875415c7509888038a2b8
     skills/terraform-skill/references/state-management.md: 9912a56d21df2ddc12f9dbda6fa8f9712c16d85e7030991f3011971f999ecc64
     skills/terraform-skill/references/testing-frameworks.md: a35483a965a649603065882498587c62a2badc373a05d6e6620b19eb8dcb425f
-    skills/tf-standards/SKILL.md: 7d00880ff4b76350777b2828a407787a5ffa8bbeace0affd5bcf1d92df9c127d
-    skills/tf-standards/references/opentofu-patterns.md: c532e6dd6d31a0b523c613b6c98771c233c20182d559ad093ece7e035d954aaf
-    skills/tf-standards/references/organization.md: 3587a3766e7097c7c5a63e0a5f98ea671a8b552f0e6ec00798980ff4cc80d453
-    skills/tf-standards/references/provider-config.md: 8e657180b568b014077adef996d6d3d6536bc5878bd9fddd8c35aa4d53b69677
-    skills/tf-standards/references/restful-provider.md: b32ef3b02e9c5e990976b12147ba051730b1711aae1f9f6839cd69ad34739353
-    skills/tf-standards/references/variables.md: 88075e6314019b828e8cbbb0e72b222b387dbbf630039f884e100678d69c882d
+    skills/tf-standards/SKILL.md: 6e80286fc5fd9deba089f2fc55f8551ea1d78eded26b30adf9e0d8378c82e201
+    skills/tf-standards/references/opentofu-patterns.md: c03102a38215cf4a9d73f6abaa8229a324cb60e5041878eafbff6b37c2b2ef58
+    skills/tf-standards/references/organization.md: b2d6e1231a09999bb5cfb8a024b5f3ae3a4c0d6b578814dab0d2e15077cbf004
+    skills/tf-standards/references/provider-config.md: 94a641ac0664c5ba81d39d24e78f04897fc47c9144e4d1006807a69cb47b3919
+    skills/tf-standards/references/restful-provider.md: d5bdfbf9df191c4acf604607ce732737a51cb3bf3a1819ab69c32df6fe21e8c4
+    skills/tf-standards/references/variables.md: b4a4098a2f998cbb4be211b2643724eb2b8e0446d4b9841e362e29735a3faa4c
 lockfile_version: '1'
-generated_at: '2026-08-07T10:47:01.781947+00:00'
-apm_version: 0.27.0
+generated_at: '2026-08-24T14:19:21.360080+00:00'
+apm_version: 0.28.0
 dependencies:
 - repo_url: antonbabenko/terraform-skill
   name: terraform-skill
