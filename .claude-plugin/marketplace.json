@@ -12,23 +12,23 @@
     {
       "name": "llmctl-core",
       "description": "Core steering skills — research, troubleshooting, batch execution, and Mermaid diagramming.",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "category": "Development",
-      "source": "./plugins/llmctl-core-2026.9.1"
+      "source": "./plugins/llmctl-core-2026.9.2"
     },
     {
       "name": "llmctl-workflow",
       "description": "Code delivery steering — TDD, git worktrees, merge-conflict resolution, code-review reception, and lint pipelines.",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "category": "Development",
-      "source": "./plugins/llmctl-workflow-2026.9.1"
+      "source": "./plugins/llmctl-workflow-2026.9.2"
     },
     {
       "name": "llmctl-ops",
       "description": "Ops / infrastructure steering — Helm, Kubernetes, and OpenTofu/Terraform skills.",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "category": "DevOps",
-      "source": "./plugins/llmctl-ops-2026.9.1"
+      "source": "./plugins/llmctl-ops-2026.9.2"
     },
     {
       "name": "llmctl-product",
@@ -47,9 +47,16 @@
     {
       "name": "llmctl-python",
       "description": "Python steering — source-authoring standards, single-file script discipline, and modern uv/ruff/ty project tooling.",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "category": "Development",
-      "source": "./plugins/llmctl-python-2026.9.1"
+      "source": "./plugins/llmctl-python-2026.9.2"
+    },
+    {
+      "name": "llmctl-travel",
+      "description": "Travel steering — destination timing checks against holidays and major events, trip planning, entry requirements, and itinerary authoring.",
+      "version": "2026.9.1",
+      "category": "Productivity",
+      "source": "./plugins/llmctl-travel-2026.9.1"
     }
   ]
 }

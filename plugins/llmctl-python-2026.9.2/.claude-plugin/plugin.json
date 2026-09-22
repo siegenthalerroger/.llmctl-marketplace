@@ -1,0 +1,9 @@
+{
+  "name": "llmctl-python",
+  "version": "2026.9.2",
+  "description": "Python steering \u2014 source-authoring standards and single-file script discipline, plus the upstream modern tooling setup for uv/ruff/ty projects.",
+  "author": {
+    "name": "siegenthalerroger"
+  },
+  "license": "MIT AND CC-BY-SA-4.0"
+}

@@ -1,0 +1,45 @@
+{
+  "mcpServers": {
+    "airbnb": {
+      "args": [
+        "-y",
+        "@openbnb/mcp-server-airbnb@0.3.0",
+        "--ignore-robots-txt"
+      ],
+      "command": "npx",
+      "type": "stdio"
+    },
+    "ferryhopper": {
+      "type": "http",
+      "url": "https://mcp.ferryhopper.com/mcp"
+    },
+    "fli": {
+      "args": [
+        "--from",
+        "flights[mcp]==0.9.0",
+        "fli-mcp"
+      ],
+      "command": "uvx",
+      "type": "stdio"
+    },
+    "hotelrate": {
+      "args": [
+        "--with",
+        "mcp[cli]<2",
+        "--from",
+        "git+https://github.com/seanbabalala/hotelrate-crawl@b60205201f002d649ef741fcfe1f6130123289e6",
+        "hotelrate-mcp"
+      ],
+      "command": "uvx",
+      "type": "stdio"
+    },
+    "skiplagged": {
+      "type": "http",
+      "url": "https://mcp.skiplagged.com/mcp"
+    },
+    "trivago": {
+      "type": "http",
+      "url": "https://mcp.trivago.com/mcp"
+    }
+  }
+}
