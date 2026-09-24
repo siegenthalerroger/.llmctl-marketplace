@@ -80,7 +80,7 @@
       "name": "llmctl-travel",
       "source": {
         "source": "local",
-        "path": "./plugins/llmctl-travel-2026.9.2"
+        "path": "./plugins/llmctl-travel-2026.9.3"
       },
       "policy": {
         "installation": "AVAILABLE",

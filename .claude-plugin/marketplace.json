@@ -54,9 +54,9 @@
     {
       "name": "llmctl-travel",
       "description": "Travel steering — destination timing checks against holidays and major events, trip planning, entry requirements, and itinerary authoring.",
-      "version": "2026.9.2",
+      "version": "2026.9.3",
       "category": "Productivity",
-      "source": "./plugins/llmctl-travel-2026.9.2"
+      "source": "./plugins/llmctl-travel-2026.9.3"
     }
   ]
 }

@@ -1,26 +1,27 @@
 pack:
   format: claude-plugin
   target: claude
-  packed_at: '2026-09-24T14:18:40.417730+00:00'
+  packed_at: '2026-09-24T14:45:36.006799+00:00'
   bundle_files:
     .mcp.json: 3d36449bec02673f6453a8f084f6149c54732251e028d0dd72969e64d0c5af9f
-    commands/plan-trip.md: 58e5e3635b6cebd04772ee0f1c5f5e2f91e0093c69924451fcdec47ff82fa9ce
-    plugin.json: b0eded63f0f24fde6e28cc6fc9a0609ddb96f1334569509e2e3838c9bf035e73
-    skills/destination-calendar/SKILL.md: 1436edb9399f1f5f7bbe557bfdf6f52daff660d37b8b042040c08ea0d2d51f21
-    skills/destination-calendar/references/event-classes.md: d37e9c2bac7944738a521d223948edd745a605b7f9c75a1d43eed867c92d378b
-    skills/destination-calendar/references/search-protocol.md: fc89ab6472c584c99fce479d0fc7e8739591816286d5593dc6e17c629e282fad
-    skills/destination-calendar/references/verdict.md: 89140af8d9cd0efecff0edb555153cd2c0f0f1c69a84ea68dd5dc73dff6257ba
+    commands/plan-trip.md: 08db207d65f393c089fdf25afe2170f289216cdf0247f9d933baf9824362ede4
+    plugin.json: b192e4849870f51722dd344563f05b0a0a65432a3726624369ebda73f4b6a624
+    skills/destination-calendar/SKILL.md: de2b47009dadb48c17cc02d7c820b8d9ad7f9e7e0ad366722ffecb7757d246d3
+    skills/destination-calendar/references/event-classes.md: 146a52956c2deb52043c0389afee8ead79e14e55f0e401e64cc0479146b2673c
+    skills/destination-calendar/references/search-protocol.md: bfc7886f118453651b59376d655d61a9efa422e57b00150116ac95b84d65f283
+    skills/destination-calendar/references/verdict.md: fb0948393a2f8d1982b0c584846f636baeec90083398860a2f2bfdd80c73e909
     skills/destination-calendar/scripts/destination_calendar.py: b118ba5e52bdc977fdb6d525b8b5ed60abc9b4085ed4bf1bb5f2bca0fd3f6aea
-    skills/itinerary-authoring/SKILL.md: ef4b7b13568d7f086776aef134fd9520e5b573db66af92f1467c9b04ccaea929
-    skills/itinerary-authoring/references/day-structure.md: f12f82b60efa4f89824e687e39e723857801071ee639d60bec40fe25e5a042e6
-    skills/itinerary-authoring/references/lead-times.md: f3243b4b0bc8fbe8884e790f2881b3af9a84e46da5e013b4d10b46bf4429f783
-    skills/travel-entry-requirements/SKILL.md: 0cf943e9472e1ace9f2aa2d6a2cb5d501763b396a0d6d5e7808ef903a6164fab
-    skills/travel-entry-requirements/references/official-sources.md: 064c1c57e87b80a588e336bd3b8b5974ca9cd1134f46f4d43538f821378737ce
+    skills/itinerary-authoring/SKILL.md: c021bd6c5d7207b7becea86b22e25b6cad33f522c38a25b11960cf11cf50ff12
+    skills/itinerary-authoring/references/day-structure.md: 51a4fe0118cb737b812924d2b90dc98112407b554732d80609e77b7dee667e48
+    skills/itinerary-authoring/references/lead-times.md: 380021bb46a90bd9da3ed17d8a2d042c0790e74a072d04b2238c25d61bb5dd7c
+    skills/travel-entry-requirements/SKILL.md: 5e83c96423e7d392647b67fc4768fdf353c66ad9c4d3f7cca7d2f93a278f9e5a
+    skills/travel-entry-requirements/references/official-sources.md: 97ee8da867b7afaee9eb0ac9ca2659a3e0dac48c2bb7e643bf8d21cdb50ed904
     skills/travel-entry-requirements/scripts/schengen_window.py: acb2f0d18dac3e84b9788c9b8ee813ad27dca3e1a63525612bc438e8af296bb3
-    skills/trip-planning/SKILL.md: 374188daf28f579ddc7adb1cfe32c2bbe4bdb127db785be32b6a55af16dcefe6
-    skills/trip-planning/references/booking-authority.md: e4c82c0780d6c7511f8e244a451e4e6f574e193c4d3f71d99d35909bba72db4e
-    skills/trip-planning/references/intake.md: 8d55e2975f1caac308193dda92b6e162866fe221da979e35be96d385df5402e8
-    skills/trip-planning/references/tool-inventory.md: d6a81730da9f161a63782e28f4b3cba395a74a1f8f8425f85774d23ea7d630b8
+    skills/trip-planning/SKILL.md: 1b486caaa2963d501fffa96e115516c43600341684d9025c795e36e3308b3aad
+    skills/trip-planning/references/booking-authority.md: fe69125318c339398bd0b83b610d10df12a6c1302784fe956413af30ced95ea8
+    skills/trip-planning/references/deliverable.md: cf5fc245ff362e3d7c19e143c6e8da63f332372f7c4ea68d93513d579150dfb8
+    skills/trip-planning/references/intake.md: ffa81e5bbb1a85af3ffe3f99bcd86793d9f7cf771cccbde55c1813351311f659
+    skills/trip-planning/references/tool-inventory.md: d23b7e2dbee6d006da24ce6fb068b854aa6b68ff22b4fb55590767a162392cd2
 lockfile_version: '1'
 dependencies: []
 deployments:
@@ -32,7 +33,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:eb293bc63b6b90fd4417e1223a71f92a47f2674c605f2aeac3f89c58c65dad12
+  content_hash: sha256:81f0d165a4143af5091d7c67c828aa1cc5b3dd16a164060bd74f1501f48df87a
 - kind: project-relative
   target: claude
   value: .claude/skills/destination-calendar
@@ -50,7 +51,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:1436edb9399f1f5f7bbe557bfdf6f52daff660d37b8b042040c08ea0d2d51f21
+  content_hash: sha256:de2b47009dadb48c17cc02d7c820b8d9ad7f9e7e0ad366722ffecb7757d246d3
 - kind: project-relative
   target: claude
   value: .claude/skills/destination-calendar/references/event-classes.md
@@ -59,7 +60,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:d37e9c2bac7944738a521d223948edd745a605b7f9c75a1d43eed867c92d378b
+  content_hash: sha256:146a52956c2deb52043c0389afee8ead79e14e55f0e401e64cc0479146b2673c
 - kind: project-relative
   target: claude
   value: .claude/skills/destination-calendar/references/search-protocol.md
@@ -68,7 +69,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:fc89ab6472c584c99fce479d0fc7e8739591816286d5593dc6e17c629e282fad
+  content_hash: sha256:bfc7886f118453651b59376d655d61a9efa422e57b00150116ac95b84d65f283
 - kind: project-relative
   target: claude
   value: .claude/skills/destination-calendar/references/verdict.md
@@ -77,7 +78,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:89140af8d9cd0efecff0edb555153cd2c0f0f1c69a84ea68dd5dc73dff6257ba
+  content_hash: sha256:fb0948393a2f8d1982b0c584846f636baeec90083398860a2f2bfdd80c73e909
 - kind: project-relative
   target: claude
   value: .claude/skills/destination-calendar/scripts/destination_calendar.py
@@ -104,7 +105,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:ef4b7b13568d7f086776aef134fd9520e5b573db66af92f1467c9b04ccaea929
+  content_hash: sha256:c021bd6c5d7207b7becea86b22e25b6cad33f522c38a25b11960cf11cf50ff12
 - kind: project-relative
   target: claude
   value: .claude/skills/itinerary-authoring/references/day-structure.md
@@ -113,7 +114,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:f12f82b60efa4f89824e687e39e723857801071ee639d60bec40fe25e5a042e6
+  content_hash: sha256:51a4fe0118cb737b812924d2b90dc98112407b554732d80609e77b7dee667e48
 - kind: project-relative
   target: claude
   value: .claude/skills/itinerary-authoring/references/lead-times.md
@@ -122,7 +123,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:f3243b4b0bc8fbe8884e790f2881b3af9a84e46da5e013b4d10b46bf4429f783
+  content_hash: sha256:380021bb46a90bd9da3ed17d8a2d042c0790e74a072d04b2238c25d61bb5dd7c
 - kind: project-relative
   target: claude
   value: .claude/skills/travel-entry-requirements
@@ -140,7 +141,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:0cf943e9472e1ace9f2aa2d6a2cb5d501763b396a0d6d5e7808ef903a6164fab
+  content_hash: sha256:5e83c96423e7d392647b67fc4768fdf353c66ad9c4d3f7cca7d2f93a278f9e5a
 - kind: project-relative
   target: claude
   value: .claude/skills/travel-entry-requirements/references/official-sources.md
@@ -149,7 +150,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:064c1c57e87b80a588e336bd3b8b5974ca9cd1134f46f4d43538f821378737ce
+  content_hash: sha256:97ee8da867b7afaee9eb0ac9ca2659a3e0dac48c2bb7e643bf8d21cdb50ed904
 - kind: project-relative
   target: claude
   value: .claude/skills/travel-entry-requirements/scripts/schengen_window.py
@@ -176,7 +177,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:374188daf28f579ddc7adb1cfe32c2bbe4bdb127db785be32b6a55af16dcefe6
+  content_hash: sha256:1b486caaa2963d501fffa96e115516c43600341684d9025c795e36e3308b3aad
 - kind: project-relative
   target: claude
   value: .claude/skills/trip-planning/references/booking-authority.md
@@ -185,7 +186,16 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:e4c82c0780d6c7511f8e244a451e4e6f574e193c4d3f71d99d35909bba72db4e
+  content_hash: sha256:fe69125318c339398bd0b83b610d10df12a6c1302784fe956413af30ced95ea8
+- kind: project-relative
+  target: claude
+  value: .claude/skills/trip-planning/references/deliverable.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:cf5fc245ff362e3d7c19e143c6e8da63f332372f7c4ea68d93513d579150dfb8
 - kind: project-relative
   target: claude
   value: .claude/skills/trip-planning/references/intake.md
@@ -194,7 +204,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:8d55e2975f1caac308193dda92b6e162866fe221da979e35be96d385df5402e8
+  content_hash: sha256:ffa81e5bbb1a85af3ffe3f99bcd86793d9f7cf771cccbde55c1813351311f659
 - kind: project-relative
   target: claude
   value: .claude/skills/trip-planning/references/tool-inventory.md
@@ -203,7 +213,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:d6a81730da9f161a63782e28f4b3cba395a74a1f8f8425f85774d23ea7d630b8
+  content_hash: sha256:d23b7e2dbee6d006da24ce6fb068b854aa6b68ff22b4fb55590767a162392cd2
 - kind: uri
   target: mcp
   value: airbnb
