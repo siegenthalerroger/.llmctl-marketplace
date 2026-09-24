@@ -1,0 +1,23 @@
+{
+  "name": "llmctl-travel",
+  "version": "2026.9.2",
+  "description": "Travel steering \u2014 destination timing intelligence (public/school holidays and major events), trip planning, entry requirements, itinerary authoring, plus flight, hotel, ferry and stay search MCP servers.",
+  "author": {
+    "name": "siegenthalerroger"
+  },
+  "license": "MIT AND CC-BY-SA-4.0",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "llmctl-travel",
+    "shortDescription": "Travel steering \u2014 destination timing intelligence (public/school holidays and major events), trip planning, entry requirements, itinerary authoring, plus flight, hotel, ferry and stay search MCP servers.",
+    "longDescription": "Travel steering \u2014 destination timing intelligence (public/school holidays and major events), trip planning, entry requirements, itinerary authoring, plus flight, hotel, ferry and stay search MCP servers.",
+    "developerName": "siegenthalerroger",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills",
+      "Commands",
+      "MCP"
+    ]
+  }
+}

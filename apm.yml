@@ -23,23 +23,23 @@ marketplace:
     strategy: per_package
   packages:
     - name: llmctl-core
-      source: ./plugins/llmctl-core-2026.9.2
-      version: 2026.9.2
+      source: ./plugins/llmctl-core-2026.9.3
+      version: 2026.9.3
       category: Development
       description: Core steering skills — research, troubleshooting, batch execution, and Mermaid diagramming.
     - name: llmctl-workflow
-      source: ./plugins/llmctl-workflow-2026.9.2
-      version: 2026.9.2
+      source: ./plugins/llmctl-workflow-2026.9.3
+      version: 2026.9.3
       category: Development
       description: Code delivery steering — TDD, git worktrees, merge-conflict resolution, code-review reception, and lint pipelines.
     - name: llmctl-ops
-      source: ./plugins/llmctl-ops-2026.9.2
-      version: 2026.9.2
+      source: ./plugins/llmctl-ops-2026.9.3
+      version: 2026.9.3
       category: DevOps
       description: Ops / infrastructure steering — Helm, Kubernetes, and OpenTofu/Terraform skills.
     - name: llmctl-product
-      source: ./plugins/llmctl-product-2026.9.1
-      version: 2026.9.1
+      source: ./plugins/llmctl-product-2026.9.2
+      version: 2026.9.2
       category: Product
       description: Product steering skills — Epic and Feature PRD authoring.
     - name: llmctl-design
@@ -48,12 +48,12 @@ marketplace:
       category: Design
       description: Design steering — direction-setting, colour, typography, and presentation.
     - name: llmctl-python
-      source: ./plugins/llmctl-python-2026.9.2
-      version: 2026.9.2
+      source: ./plugins/llmctl-python-2026.9.3
+      version: 2026.9.3
       category: Development
       description: Python steering — source-authoring standards, single-file script discipline, and modern uv/ruff/ty project tooling.
     - name: llmctl-travel
-      source: ./plugins/llmctl-travel-2026.9.1
-      version: 2026.9.1
+      source: ./plugins/llmctl-travel-2026.9.2
+      version: 2026.9.2
       category: Productivity
       description: Travel steering — destination timing checks against holidays and major events, trip planning, entry requirements, and itinerary authoring.

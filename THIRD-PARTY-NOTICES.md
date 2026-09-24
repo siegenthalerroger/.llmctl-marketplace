@@ -9,7 +9,7 @@ Plugin bundles here vendor skills authored elsewhere, and adapt content from ups
 
 Each bundle's `apm.lock.yaml` records the upstream `repo_url`, the resolved commit, and a SHA-256 per file, and is the authoritative record of what that bundle actually contains.
 
-## llmctl-core-2026.9.2
+## llmctl-core-2026.9.3
 
 ### Vendored dependencies
 
@@ -51,7 +51,7 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 
 Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
-## llmctl-ops-2026.9.2
+## llmctl-ops-2026.9.3
 
 ### Vendored dependencies
 
@@ -59,7 +59,7 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 | --- | --- | --- | --- | --- |
 | `terraform-skill` | [antonbabenko/terraform-skill](https://github.com/antonbabenko/terraform-skill) | Apache-2.0 | Copyright 2026 Anton Babenko | `0a3a4a66e990` |
 
-## llmctl-product-2026.9.1
+## llmctl-product-2026.9.2
 
 ### Adapted content
 
@@ -73,7 +73,7 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 
 Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
-## llmctl-python-2026.9.2
+## llmctl-python-2026.9.3
 
 ### Vendored dependencies
 
@@ -81,7 +81,7 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 | --- | --- | --- | --- | --- |
 | `modern-python` | [trailofbits/skills](https://github.com/trailofbits/skills) | CC-BY-SA-4.0 | Trail of Bits | `123037ec8aed` |
 
-## llmctl-workflow-2026.9.2
+## llmctl-workflow-2026.9.3
 
 ### Vendored dependencies
 
@@ -110,13 +110,14 @@ Sources that shaped this work without imposing a condition — an idea, a struct
 
 | Source | Attribution | Licence | How it was used |
 | --- | --- | --- | --- |
+| [agent-plugins.org](https://agent-plugins.org/plugin-authors/manifest) | — | not recorded | inspiration-only |
 | [agents.md](https://agents.md/) | — | not recorded | inspiration-only |
 | [agentskills.io](https://agentskills.io/) | Copyright the Agent Skills authors | Apache-2.0 | inspiration-only |
 | [code.claude.com](https://code.claude.com/docs/en/hooks) | Anthropic | Proprietary | inspiration-only |
 | [code.visualstudio.com](https://code.visualstudio.com/docs/agent-customization/hooks) | Microsoft Corporation | Proprietary | inspiration-only |
-| [developers.openai.com](https://developers.openai.com/api/docs/guides/agents/orchestration) | OpenAI | Proprietary | inspiration-only |
+| [developers.openai.com](https://developers.openai.com/plugins/build/plugins) | OpenAI | Proprietary | inspiration-only |
 | [docs.astral.sh](https://docs.astral.sh/uv/guides/scripts/) | — | not recorded | inspiration-only |
-| [docs.github.com](https://docs.github.com/en/copilot/reference/custom-agents-configuration) | GitHub, Inc. | Proprietary | inspiration-only |
+| [docs.github.com](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/use-hooks) | GitHub, Inc. | Proprietary | inspiration-only |
 | [docs.python.org](https://docs.python.org/3/library/argparse.html) | — | not recorded | inspiration-only |
 | [Myndex/apca-w3](https://github.com/Myndex/apca-w3) | Copyright © 2019-2023 Andrew Somers and/or Myndex™. All Rights Reserved. | W3C-20150513 | inspiration-only |
 | [Vinayak-Shukla-03/anti-ai-slop](https://github.com/Vinayak-Shukla-03/anti-ai-slop) | Copyright (c) 2026 Vinayak Shukla | MIT | inspiration-only |
@@ -126,6 +127,7 @@ Sources that shaped this work without imposing a condition — an idea, a struct
 | [funboy322/avoid-ai-design](https://github.com/funboy322/avoid-ai-design) | Copyright (c) 2026 ungspirit | MIT | inspiration-only |
 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Copyright GitHub, Inc. | MIT | inspiration-only, structural-echo |
 | [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) | Copyright (c) 2014 - 2022 Knut Sveidqvist | MIT | inspiration-only |
+| [microsoft/apm](https://github.com/microsoft/apm) | — | not recorded | inspiration-only |
 | [nager/Nager.Date](https://github.com/nager/Nager.Date) | — | not recorded | inspiration-only |
 | [norwoodj/helm-docs](https://github.com/norwoodj/helm-docs) | norwoodj/helm-docs contributors | GPL-3.0 | inspiration-only |
 | [obra/superpowers](https://github.com/obra/superpowers) | Copyright (c) 2025 Jesse Vincent | MIT | inspiration-only |
@@ -133,7 +135,7 @@ Sources that shaped this work without imposing a condition — an idea, a struct
 | [guykawasaki.com](https://guykawasaki.com/the_102030_rule/) | Guy Kawasaki, *The 10/20/30 Rule of PowerPoint* | no licence | inspiration-only |
 | [helm.sh](https://helm.sh/docs/topics/charts/) | Copyright (c) 2017 Microsoft Corporation | MIT | inspiration-only |
 | [home-affairs.ec.europa.eu](https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa_en) | — | not recorded | inspiration-only |
-| [learn.chatgpt.com](https://learn.chatgpt.com/docs/extend/mcp) | — | not recorded | inspiration-only |
+| [learn.chatgpt.com](https://learn.chatgpt.com/docs/hooks) | — | not recorded | inspiration-only |
 | [mermaid.js.org](https://mermaid.js.org/intro/syntax-reference.html) | Copyright (c) 2014 - 2022 Knut Sveidqvist | MIT | inspiration-only |
 | [microsoft.github.io](https://microsoft.github.io/apm/producer/author-primitives/hooks-and-commands/) | Microsoft Corporation | Proprietary | inspiration-only |
 | [openlibrary.org/isbn/9780273710516](https://openlibrary.org/isbn/9780273710516) | Barbara Minto, *The Pyramid Principle*, 3rd ed. (Pearson, 2009) | no licence | inspiration-only |

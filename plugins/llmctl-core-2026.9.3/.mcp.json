@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "context7": {
+      "env_http_headers": {},
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "github": {
+      "args": [
+        "mcp"
+      ],
+      "command": "gh",
+      "type": "stdio"
+    }
+  }
+}
