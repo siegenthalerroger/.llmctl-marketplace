@@ -9,7 +9,7 @@ Plugin bundles here vendor skills authored elsewhere, and adapt content from ups
 
 Each bundle's `apm.lock.yaml` records the upstream `repo_url`, the resolved commit, and a SHA-256 per file, and is the authoritative record of what that bundle actually contains.
 
-## llmctl-baseline-2026.9.2
+## llmctl-baseline-2026.9.3
 
 ### Vendored dependencies
 

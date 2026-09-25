@@ -1,7 +1,7 @@
 pack:
   format: claude-plugin
   target: claude
-  packed_at: '2026-09-25T13:48:09.392364+00:00'
+  packed_at: '2026-09-25T15:32:36.310330+00:00'
   bundle_files:
     .mcp.json: 6c226a93272029c65cf3f03eeb3d6cacc4ad394505e3c18ab927bdc2a6b1f80b
     agents/executor-broad.agent.md: 040a6f8aacf9b4cf5378a07cbe0add6d810d2ebdf15d549f62c0ca276077c0a3
@@ -11,12 +11,13 @@ pack:
     agents/researcher-advanced.agent.md: f15191d37b2da1fe17a30b7a6df6c15f57d7fa4c33cb9e90c4d00a1cb581ed6f
     commands/reflect.md: 40501af895fa1f967ea9bfaed4047b82ef800515ff64dc51f54aaf606c582605
     commands/setup-mcp.md: 960019546867cabc54da0d46189a95f55089b2a71457814ff01fbefab1abe94f
-    hooks.json: 87aadd0dd28301c3a0f5af6b38ec5feffd7f6e82f5e849926dca68af0a740734
+    hooks.json: 08abe02e3f5736c756d6f1ce064251c209bb6560ba8f0f86970735048698d895
     instructions/documentation.instructions.md: cdd7f9780cb115a42a8c296201c906e6cadc6a51b9711e0f38b80323ea1e7ef9
     instructions/meta.instructions.md: 8a4ae22cc343af983d69a1c004a2a1d5ac5a75189606ca02afb605c78878211a
     instructions/troubleshooting.instructions.md: 60d1019f226a20e7a9910a21253f0704cf4762b29eb20bc6c8769aa8cab3f8de
+    instructions/working-style.instructions.md: d21e213dae45ac47eeb5d19916a6604df11b28c7e4a40a0a8d9da442609789c1
     instructions/writing-style.instructions.md: d3653ed3013adbb5728cbdcdfdd47850ace579cef70a216068e03d8fca70401f
-    plugin.json: 7c661f93c2014ad41550291503c8deb860381b8f1852c24c6bd95c39a48065a2
+    plugin.json: ae729881cee991eed998c0c1cb74473c5de6a60cf61eedea72d8c06c3e803178
     skills/authoring-mermaid-diagrams/SKILL.md: 8c06960ada423d8148121b5a4beb078c33a0c96264aeb5fd4fd76433a3fa16e3
     skills/authoring-mermaid-diagrams/references/diagram-types.md: f7a3162cc76934bf88129c6a0c8b0483587e4c72cc0977e2b0bc4119499cf3d6
     skills/authoring-mermaid-diagrams/references/styling-and-theming.md: bbba28e0c07cabf649bb31ea369b84a203270b1db8fb7d3543ad6f41fd673fcc
@@ -228,6 +229,15 @@ deployments:
   content_hash: sha256:60d1019f226a20e7a9910a21253f0704cf4762b29eb20bc6c8769aa8cab3f8de
 - kind: project-relative
   target: claude
+  value: .claude/hooks/llmctl-baseline/.apm/instructions/working-style.instructions.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:d21e213dae45ac47eeb5d19916a6604df11b28c7e4a40a0a8d9da442609789c1
+- kind: project-relative
+  target: claude
   value: .claude/hooks/llmctl-baseline/.apm/instructions/writing-style.instructions.md
   runtime: null
   scope: project
@@ -262,6 +272,15 @@ deployments:
   - .
   active_owner: .
   content_hash: sha256:80e338947e0ad26a22173a9051b1db8c738810bbeb1d226e21de096dda2ef83a
+- kind: project-relative
+  target: claude
+  value: .claude/rules/working-style.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:b7d17e2efff414294ee23811d1aa523aec34def24181f8cfb1843b7577b21648
 - kind: project-relative
   target: claude
   value: .claude/rules/writing-style.md

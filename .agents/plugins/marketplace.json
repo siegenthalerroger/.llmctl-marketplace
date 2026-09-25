@@ -8,7 +8,7 @@
       "name": "llmctl-baseline",
       "source": {
         "source": "local",
-        "path": "./plugins/llmctl-baseline-2026.9.2"
+        "path": "./plugins/llmctl-baseline-2026.9.3"
       },
       "policy": {
         "installation": "AVAILABLE",
