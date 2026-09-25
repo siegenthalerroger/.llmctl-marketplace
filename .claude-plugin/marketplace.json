@@ -10,53 +10,53 @@
   },
   "plugins": [
     {
-      "name": "llmctl-core",
-      "description": "Core steering skills — research, troubleshooting, batch execution, and Mermaid diagramming.",
-      "version": "2026.9.3",
-      "category": "Development",
-      "source": "./plugins/llmctl-core-2026.9.3"
-    },
-    {
-      "name": "llmctl-workflow",
-      "description": "Code delivery steering — TDD, git worktrees, merge-conflict resolution, code-review reception, and lint pipelines.",
-      "version": "2026.9.3",
-      "category": "Development",
-      "source": "./plugins/llmctl-workflow-2026.9.3"
-    },
-    {
-      "name": "llmctl-ops",
-      "description": "Ops / infrastructure steering — Helm, Kubernetes, and OpenTofu/Terraform skills.",
-      "version": "2026.9.3",
-      "category": "DevOps",
-      "source": "./plugins/llmctl-ops-2026.9.3"
-    },
-    {
-      "name": "llmctl-product",
-      "description": "Product steering skills — Epic and Feature PRD authoring.",
-      "version": "2026.9.2",
-      "category": "Product",
-      "source": "./plugins/llmctl-product-2026.9.2"
+      "name": "llmctl-baseline",
+      "description": "Baseline for efficient and effective AI agent usage. Encourage usage of sub-agents, adopt a more concise output style, and more. Comes with domain-neutral planning, exploration and execution agents, research, troubleshooting, and diagramming steering.",
+      "version": "2026.9.1",
+      "category": "Productivity",
+      "source": "./plugins/llmctl-baseline-2026.9.1"
     },
     {
       "name": "llmctl-design",
-      "description": "Design steering — direction-setting, colour, typography, and presentation.",
-      "version": "2026.9.1",
+      "description": "Collaborative design work; direction-setting, colour, typography and presentation skills, plus layout, identity and data-visualisation practice.",
+      "version": "2026.9.2",
       "category": "Design",
-      "source": "./plugins/llmctl-design-2026.9.1"
+      "source": "./plugins/llmctl-design-2026.9.2"
+    },
+    {
+      "name": "llmctl-ops",
+      "description": "Confidently hand off infrastructure work. Helm, Kubernetes and OpenTofu/Terraform skills, path-scoped conventions, and cloud and IaC documentation connectors.",
+      "version": "2026.9.4",
+      "category": "DevOps",
+      "source": "./plugins/llmctl-ops-2026.9.4"
+    },
+    {
+      "name": "llmctl-product",
+      "description": "Epic and feature PRD authoring, plus product-manager and UX-expert agents. Very Barebones!",
+      "version": "2026.9.3",
+      "category": "Product",
+      "source": "./plugins/llmctl-product-2026.9.3"
     },
     {
       "name": "llmctl-python",
-      "description": "Python steering — source-authoring standards, single-file script discipline, and modern uv/ruff/ty project tooling.",
-      "version": "2026.9.3",
+      "description": "Ensure modern pythonic development with source-authoring standards, single-file script discipline, and modern uv, ruff and ty project tooling.",
+      "version": "2026.9.4",
       "category": "Development",
-      "source": "./plugins/llmctl-python-2026.9.3"
+      "source": "./plugins/llmctl-python-2026.9.4"
     },
     {
       "name": "llmctl-travel",
-      "description": "Travel steering — destination timing checks against holidays and major events, trip planning, entry requirements, and itinerary authoring.",
-      "version": "2026.9.3",
+      "description": "Take the busy-work out of travel planning. Destination timing checks against holidays and major events, entry requirements, itineraries, and flight, hotel, ferry and stay search connectors.",
+      "version": "2026.9.4",
       "category": "Productivity",
-      "source": "./plugins/llmctl-travel-2026.9.3"
+      "source": "./plugins/llmctl-travel-2026.9.4"
+    },
+    {
+      "name": "llmctl-workflow",
+      "description": "Consistent code delivery from AI agents. Test-driven development, git worktrees, merge-conflict resolution, receiving code review and lint pipelines, plus a code-reviewer agent.",
+      "version": "2026.9.4",
+      "category": "Development",
+      "source": "./plugins/llmctl-workflow-2026.9.4"
     }
   ]
 }

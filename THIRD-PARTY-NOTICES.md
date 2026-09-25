@@ -9,7 +9,7 @@ Plugin bundles here vendor skills authored elsewhere, and adapt content from ups
 
 Each bundle's `apm.lock.yaml` records the upstream `repo_url`, the resolved commit, and a SHA-256 per file, and is the authoritative record of what that bundle actually contains.
 
-## llmctl-core-2026.9.3
+## llmctl-baseline-2026.9.1
 
 ### Vendored dependencies
 
@@ -31,7 +31,7 @@ Each bundle's `apm.lock.yaml` records the upstream `repo_url`, the resolved comm
 
 Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
-## llmctl-design-2026.9.1
+## llmctl-design-2026.9.2
 
 ### Vendored dependencies
 
@@ -51,7 +51,7 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 
 Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
-## llmctl-ops-2026.9.3
+## llmctl-ops-2026.9.4
 
 ### Vendored dependencies
 
@@ -59,7 +59,7 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 | --- | --- | --- | --- | --- |
 | `terraform-skill` | [antonbabenko/terraform-skill](https://github.com/antonbabenko/terraform-skill) | Apache-2.0 | Copyright 2026 Anton Babenko | `0a3a4a66e990` |
 
-## llmctl-product-2026.9.2
+## llmctl-product-2026.9.3
 
 ### Adapted content
 
@@ -73,7 +73,7 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 
 Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
-## llmctl-python-2026.9.3
+## llmctl-python-2026.9.4
 
 ### Vendored dependencies
 
@@ -81,7 +81,7 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 | --- | --- | --- | --- | --- |
 | `modern-python` | [trailofbits/skills](https://github.com/trailofbits/skills) | CC-BY-SA-4.0 | Trail of Bits | `123037ec8aed` |
 
-## llmctl-workflow-2026.9.3
+## llmctl-workflow-2026.9.4
 
 ### Vendored dependencies
 

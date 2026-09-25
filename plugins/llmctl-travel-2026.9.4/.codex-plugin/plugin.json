@@ -1,0 +1,37 @@
+{
+  "name": "llmctl-travel",
+  "version": "2026.9.4",
+  "description": "Take the busy-work out of travel planning. Destination timing checks against holidays and major events, entry requirements, itineraries, and flight, hotel, ferry and stay search connectors.",
+  "author": {
+    "name": "siegenthalerroger",
+    "url": "https://github.com/siegenthalerroger"
+  },
+  "homepage": "https://github.com/siegenthalerroger/.llmctl-marketplace",
+  "repository": "https://github.com/siegenthalerroger/.llmctl",
+  "license": "MIT AND CC-BY-SA-4.0",
+  "keywords": [
+    "skills",
+    "prompts",
+    "connectors",
+    "mcp",
+    "travel",
+    "trip-planning",
+    "flights",
+    "hotels"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "llmctl Travel",
+    "shortDescription": "Take the busy-work out of travel planning. Destination timing checks against holidays and major events, entry requirements, itineraries, and flight, hotel, ferry and stay search connectors.",
+    "longDescription": "Take the busy-work out of travel planning. Destination timing checks against holidays and major events, entry requirements, itineraries, and flight, hotel, ferry and stay search connectors.",
+    "developerName": "siegenthalerroger",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills",
+      "Commands",
+      "MCP"
+    ],
+    "websiteURL": "https://github.com/siegenthalerroger/.llmctl-marketplace"
+  }
+}

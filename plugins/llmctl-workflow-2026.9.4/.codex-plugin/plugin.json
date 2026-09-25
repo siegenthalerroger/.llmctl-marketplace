@@ -1,0 +1,34 @@
+{
+  "name": "llmctl-workflow",
+  "version": "2026.9.4",
+  "description": "Consistent code delivery from AI agents. Test-driven development, git worktrees, merge-conflict resolution, receiving code review and lint pipelines, plus a code-reviewer agent.",
+  "author": {
+    "name": "siegenthalerroger",
+    "url": "https://github.com/siegenthalerroger"
+  },
+  "homepage": "https://github.com/siegenthalerroger/.llmctl-marketplace",
+  "repository": "https://github.com/siegenthalerroger/.llmctl",
+  "license": "MIT AND CC-BY-SA-4.0",
+  "keywords": [
+    "skills",
+    "agents",
+    "tdd",
+    "code-review",
+    "git-worktrees",
+    "merge-conflicts",
+    "linting"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "llmctl Workflow",
+    "shortDescription": "Consistent code delivery from AI agents. Test-driven development, git worktrees, merge-conflict resolution, receiving code review and lint pipelines, plus a code-reviewer agent.",
+    "longDescription": "Consistent code delivery from AI agents. Test-driven development, git worktrees, merge-conflict resolution, receiving code review and lint pipelines, plus a code-reviewer agent.",
+    "developerName": "siegenthalerroger",
+    "category": "Development",
+    "capabilities": [
+      "Skills",
+      "Agents"
+    ],
+    "websiteURL": "https://github.com/siegenthalerroger/.llmctl-marketplace"
+  }
+}

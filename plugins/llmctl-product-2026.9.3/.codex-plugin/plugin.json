@@ -1,0 +1,32 @@
+{
+  "name": "llmctl-product",
+  "version": "2026.9.3",
+  "description": "Epic and feature PRD authoring, plus product-manager and UX-expert agents. Very Barebones!",
+  "author": {
+    "name": "siegenthalerroger",
+    "url": "https://github.com/siegenthalerroger"
+  },
+  "homepage": "https://github.com/siegenthalerroger/.llmctl-marketplace",
+  "repository": "https://github.com/siegenthalerroger/.llmctl",
+  "license": "MIT AND CC-BY-SA-4.0",
+  "keywords": [
+    "skills",
+    "agents",
+    "product-management",
+    "prd",
+    "ux"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "llmctl Product",
+    "shortDescription": "Epic and feature PRD authoring, plus product-manager and UX-expert agents. Very Barebones!",
+    "longDescription": "Epic and feature PRD authoring, plus product-manager and UX-expert agents. Very Barebones!",
+    "developerName": "siegenthalerroger",
+    "category": "Product",
+    "capabilities": [
+      "Skills",
+      "Agents"
+    ],
+    "websiteURL": "https://github.com/siegenthalerroger/.llmctl-marketplace"
+  }
+}

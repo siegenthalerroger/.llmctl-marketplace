@@ -1,0 +1,38 @@
+{
+  "name": "llmctl-ops",
+  "version": "2026.9.4",
+  "description": "Confidently hand off infrastructure work. Helm, Kubernetes and OpenTofu/Terraform skills, path-scoped conventions, and cloud and IaC documentation connectors.",
+  "author": {
+    "name": "siegenthalerroger",
+    "url": "https://github.com/siegenthalerroger"
+  },
+  "homepage": "https://github.com/siegenthalerroger/.llmctl-marketplace",
+  "repository": "https://github.com/siegenthalerroger/.llmctl",
+  "license": "MIT AND CC-BY-SA-4.0",
+  "keywords": [
+    "skills",
+    "instructions",
+    "connectors",
+    "mcp",
+    "devops",
+    "kubernetes",
+    "helm",
+    "terraform",
+    "opentofu"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "llmctl Ops",
+    "shortDescription": "Confidently hand off infrastructure work. Helm, Kubernetes and OpenTofu/Terraform skills, path-scoped conventions, and cloud and IaC documentation connectors.",
+    "longDescription": "Confidently hand off infrastructure work. Helm, Kubernetes and OpenTofu/Terraform skills, path-scoped conventions, and cloud and IaC documentation connectors.",
+    "developerName": "siegenthalerroger",
+    "category": "DevOps",
+    "capabilities": [
+      "Skills",
+      "Instructions",
+      "MCP"
+    ],
+    "websiteURL": "https://github.com/siegenthalerroger/.llmctl-marketplace"
+  }
+}
