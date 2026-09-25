@@ -25,8 +25,8 @@ marketplace:
   # (its name, description and category).
   packages:
     - name: llmctl-baseline
-      source: ./plugins/llmctl-baseline-2026.9.1
-      version: 2026.9.1
+      source: ./plugins/llmctl-baseline-2026.9.2
+      version: 2026.9.2
       description: Baseline for efficient and effective AI agent usage. Encourage usage of sub-agents, adopt a more concise output style, and more. Comes with domain-neutral planning, exploration and execution agents, research, troubleshooting, and diagramming steering.
       category: Productivity
     - name: llmctl-design
