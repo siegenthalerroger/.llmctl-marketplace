@@ -166,6 +166,18 @@ Model-generation effects (literal scoping, the consistency pass) apply to every 
 
 Use markdown structure as a semantic signal: sections group related rules and bullets mark independent items. Use numbered steps only when order matters.
 
+### Always-On Instructions Across Model Families
+
+An instruction without `applyTo` loads into every session, and its text also reaches other model families: Codex and Copilot through the always-on hook, chat products through a paste-in copy. One text has to steer Claude, GPT and Gemini models alike, so it passes these checks on top of the core principles:
+
+- **Name the target, not a change from the default.** "Give the bare answer" lands in the same place on every model; "be more concise" moves each one a different distance from a default that differs by family and swings between versions (GPT-5.6 is terser than GPT-5.5, GPT-6 Astra more detailed, Gemini 3.x terse — [OpenAI](https://developers.openai.com/api/docs/guides/prompt-guidance-gpt-5p6), [Google](https://ai.google.dev/gemini-api/docs/prompting-strategies))
+- **No tension between rules, across files as well as within one.** Always-on files load together with the harness prompt and project files, and no layer reliably wins ([Claude Code](https://code.claude.com/docs/en/memory)). Models resolve a conflict silently, favouring whichever comes later, and priority markers do not fix it ([arXiv 2511.14342](https://arxiv.org/abs/2511.14342), [arXiv 2502.15851](https://arxiv.org/abs/2502.15851)); GPT-5 models spend reasoning trying to reconcile both ([OpenAI](https://developers.openai.com/api/docs/guides/latest-model/gpt-5)). Remove the tension in the wording: scope two rules apart so they cannot fire on the same case
+- **State each rule once, and share a procedure, not a threshold.** Repeating a stop condition such as "ask first" adds up to more stopping than any one copy intends ([OpenAI](https://developers.openai.com/api/docs/guides/prompt-guidance-gpt-5p6)). Judgment calls (when to ask, check, stop or push back) can share one procedure, such as looking before asking and one criterion for stopping, but each keeps its own trigger: what is worth finding out differs per rule, and where the model's own estimate is biased (stale facts, the user's confident premise) the trigger is fixed rather than weighed
+- **Concrete targets and one positive example over adjectives and emphasis.** Concrete length targets are followed more reliably than adjectives; reserve always/never/must for true invariants and give judgment calls a decision rule ([OpenAI](https://developers.openai.com/api/docs/guides/prompt-guidance-gpt-5p6)); capitals and "CRITICAL" make current models overtrigger ([Anthropic](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices))
+- **Leave thinking alone.** No lines to think harder or less, re-check, or write out the reasoning: reasoning models already verify, prompt text does not reliably change how much they think, "don't think" wording leaks internal tags, and asking for the reasoning in the reply can be refused ([Anthropic](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-haiku-5-5), [Google](https://ai.google.dev/gemini-api/docs/generate-content/whats-new-gemini-3.5)). A length limit applies to what is written, not what is worked out: "answer only" collapses accuracy on models without a separate thinking channel ([arXiv 2503.01141](https://arxiv.org/abs/2503.01141))
+- **No product names, settings or tool names.** The text must read the same in every harness and chat product
+- **Check behaviour, not just the wording.** Rewording shifts behaviour in ways a read-through misses; Google gates edits to Gemini CLI's brevity instructions on benchmark runs. Before committing a change, run a few probes — a quick question, a pushback turn, a finished agentic task — more than once, on more than one model family
+
 ## Good vs Bad Examples
 
 ✅ **GOOD** - Specific, scoped, with reasoning:
@@ -222,6 +234,7 @@ Write good components. Follow best practices. Keep them clean.
 - [ ] Always / Ask first / Never tiers are used only where applicable
 - [ ] Code examples included where the rule is subtle
 - [ ] The file's size respects the shared always-loaded budget, not just its own line count
+- [ ] An always-on file passes the [cross-family checks](#always-on-instructions-across-model-families), read together with every other always-on file
 
 **Testing**:
 - [ ] Patterns match the intended files and nothing else, cross-platform
