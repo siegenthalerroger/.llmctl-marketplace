@@ -9,7 +9,7 @@ Plugin bundles here vendor skills authored elsewhere, and adapt content from ups
 
 Each bundle's `apm.lock.yaml` records the upstream `repo_url`, the resolved commit, and a SHA-256 per file, and is the authoritative record of what that bundle actually contains.
 
-## llmctl-baseline-2026.10.1
+## llmctl-baseline-2026.10.2
 
 ### Vendored dependencies
 
@@ -26,12 +26,16 @@ Each bundle's `apm.lock.yaml` records the upstream `repo_url`, the resolved comm
 | `agents/explore.agent.md` | CC-BY-SA-4.0 | [microsoft/vscode](https://github.com/microsoft/vscode) — [`extensions/copilot/src/extension/agents/vscode-node/exploreAgentProvider.ts`](https://github.com/microsoft/vscode/blob/main/extensions/copilot/src/extension/agents/vscode-node/exploreAgentProvider.ts) | MIT (largely-derived) | Copyright (c) 2015 - present Microsoft Corporation |
 | `agents/plan.agent.md` | CC-BY-SA-4.0 | [microsoft/vscode](https://github.com/microsoft/vscode) — [`extensions/copilot/src/extension/agents/vscode-node/planAgentProvider.ts`](https://github.com/microsoft/vscode/blob/main/extensions/copilot/src/extension/agents/vscode-node/planAgentProvider.ts) | MIT (largely-derived) | Copyright (c) 2015 - present Microsoft Corporation |
 | `skills/batch-task-execution/SKILL.md` | CC-BY-SA-4.0 | [obra/superpowers](https://github.com/obra/superpowers) — [`skills/subagent-driven-development/SKILL.md`](https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md) | MIT (partly-derived) | Copyright (c) 2025 Jesse Vincent |
-| `skills/meta-steering/SKILL.md` | CC-BY-SA-4.0 | [netresearch/agent-rules-skill](https://github.com/netresearch/agent-rules-skill) — [`skills/agent-rules/SKILL.md`](https://github.com/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md) | CC-BY-SA-4.0 (partly-derived) | Copyright (c) 2025-2026 Netresearch DTT GmbH |
+| `skills/meta-steering/references/agent-guide.md` | CC-BY-SA-4.0 | [github/awesome-copilot](https://github.com/github/awesome-copilot) — [`instructions/agents.instructions.md`](https://github.com/github/awesome-copilot/blob/main/instructions/agents.instructions.md) | MIT (partly-derived) | Copyright GitHub, Inc. |
+| `skills/meta-steering/references/instruction-bootstrapping.md` | CC-BY-SA-4.0 | [netresearch/agent-rules-skill](https://github.com/netresearch/agent-rules-skill) — [`skills/agent-rules`](https://github.com/netresearch/agent-rules-skill/tree/main/skills/agent-rules) | CC-BY-SA-4.0 (partly-derived) | Copyright (c) 2025-2026 Netresearch DTT GmbH |
+| `skills/meta-steering/references/instructions.md` | CC-BY-SA-4.0 | [netresearch/agent-rules-skill](https://github.com/netresearch/agent-rules-skill) — [`skills/agent-rules`](https://github.com/netresearch/agent-rules-skill/tree/main/skills/agent-rules) | CC-BY-SA-4.0 (partly-derived) | Copyright (c) 2025-2026 Netresearch DTT GmbH |
+| `skills/meta-steering/references/prompts.md` | CC-BY-SA-4.0 | [github/awesome-copilot](https://github.com/github/awesome-copilot) — [`instructions/prompt.instructions.md`](https://github.com/github/awesome-copilot/blob/main/instructions/prompt.instructions.md) | MIT (partly-derived) | Copyright GitHub, Inc. |
 | `skills/meta-steering/references/skill-spec.md` | Apache-2.0 | [agentskills/agentskills](https://github.com/agentskills/agentskills) — [`docs/specification.mdx`](https://github.com/agentskills/agentskills/blob/main/docs/specification.mdx) | Apache-2.0 (largely-derived) | Copyright the Agent Skills authors |
+| `skills/meta-steering/references/skills.md` | CC-BY-SA-4.0 | [github/awesome-copilot](https://github.com/github/awesome-copilot) — [`instructions/agent-skills.instructions.md`](https://github.com/github/awesome-copilot/blob/main/instructions/agent-skills.instructions.md) | MIT (partly-derived) | Copyright GitHub, Inc. |
 
 Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
-## llmctl-design-2026.9.2
+## llmctl-design-2026.10.1
 
 ### Vendored dependencies
 
@@ -51,13 +55,21 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 
 Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
-## llmctl-ops-2026.9.4
+## llmctl-ops-2026.10.1
 
 ### Vendored dependencies
 
 | Skill | Upstream | Licence | Copyright | Commit |
 | --- | --- | --- | --- | --- |
 | `terraform-skill` | [antonbabenko/terraform-skill](https://github.com/antonbabenko/terraform-skill) | Apache-2.0 | Copyright 2026 Anton Babenko | `0a3a4a66e990` |
+
+### Adapted content
+
+| File | Licensed as | Upstream | Upstream licence | Copyright |
+| --- | --- | --- | --- | --- |
+| `skills/k8s-standards/SKILL.md` | CC-BY-SA-4.0 | [github/awesome-copilot](https://github.com/github/awesome-copilot) — [`instructions/kubernetes-manifests.instructions.md`](https://github.com/github/awesome-copilot/blob/main/instructions/kubernetes-manifests.instructions.md) | MIT (partly-derived) | Copyright GitHub, Inc. |
+
+Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
 ## llmctl-product-2026.9.3
 
@@ -81,7 +93,7 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 | --- | --- | --- | --- | --- |
 | `modern-python` | [trailofbits/skills](https://github.com/trailofbits/skills) | CC-BY-SA-4.0 | Trail of Bits | `123037ec8aed` |
 
-## llmctl-workflow-2026.9.4
+## llmctl-workflow-2026.10.1
 
 ### Vendored dependencies
 
@@ -92,6 +104,14 @@ Each file above is a **modification** of its upstream. Where the upstream is Apa
 | `resolving-merge-conflicts` | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | Copyright (c) 2026 Matt Pocock | `2ab958093e83` |
 | `tdd` | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | Copyright (c) 2026 Matt Pocock | `2ab958093e83` |
 | `using-git-worktrees` | [obra/superpowers](https://github.com/obra/superpowers) | MIT | Copyright (c) 2025 Jesse Vincent | `44c9b2d6e889` |
+
+### Adapted content
+
+| File | Licensed as | Upstream | Upstream licence | Copyright |
+| --- | --- | --- | --- | --- |
+| `agents/code-reviewer.agent.md` | CC-BY-SA-4.0 | [obra/superpowers](https://github.com/obra/superpowers) — [`skills/requesting-code-review/code-reviewer.md`](https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/code-reviewer.md) | MIT (partly-derived) | Copyright (c) 2025 Jesse Vincent |
+
+Each file above is a **modification** of its upstream. Where the upstream is Apache-2.0 or CC-BY-SA-4.0, this line is the statement of changes those licences require.
 
 ## NOTICE files
 
@@ -125,12 +145,11 @@ Sources that shaped this work without imposing a condition — an idea, a struct
 | [arisng/github-copilot-fc](https://github.com/arisng/github-copilot-fc) | arisng | no licence | inspiration-only |
 | [dadav/helm-schema](https://github.com/dadav/helm-schema) | Copyright (c) 2023 dadav | MIT | inspiration-only |
 | [funboy322/avoid-ai-design](https://github.com/funboy322/avoid-ai-design) | Copyright (c) 2026 ungspirit | MIT | inspiration-only |
-| [github/awesome-copilot](https://github.com/github/awesome-copilot) | Copyright GitHub, Inc. | MIT | inspiration-only, structural-echo |
+| [github/awesome-copilot](https://github.com/github/awesome-copilot) | Copyright GitHub, Inc. | MIT | inspiration-only |
 | [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) | Copyright (c) 2014 - 2022 Knut Sveidqvist | MIT | inspiration-only |
 | [microsoft/apm](https://github.com/microsoft/apm) | — | not recorded | inspiration-only |
 | [nager/Nager.Date](https://github.com/nager/Nager.Date) | — | not recorded | inspiration-only |
 | [norwoodj/helm-docs](https://github.com/norwoodj/helm-docs) | norwoodj/helm-docs contributors | GPL-3.0 | inspiration-only |
-| [obra/superpowers](https://github.com/obra/superpowers) | Copyright (c) 2025 Jesse Vincent | MIT | inspiration-only |
 | [yetone/kill-ai-slop](https://github.com/yetone/kill-ai-slop) | yetone/kill-ai-slop contributors | Apache-2.0 | inspiration-only |
 | [guykawasaki.com](https://guykawasaki.com/the_102030_rule/) | Guy Kawasaki, *The 10/20/30 Rule of PowerPoint* | no licence | inspiration-only |
 | [helm.sh](https://helm.sh/docs/topics/charts/) | Copyright (c) 2017 Microsoft Corporation | MIT | inspiration-only |
@@ -143,6 +162,7 @@ Sources that shaped this work without imposing a condition — an idea, a struct
 | [openlibrary.org/isbn/9780470632017](https://openlibrary.org/isbn/9780470632017) | Nancy Duarte, *Resonate* (Wiley, 2010) | no licence | inspiration-only |
 | [packaging.python.org](https://packaging.python.org/en/latest/specifications/inline-script-metadata/) | — | not recorded | inspiration-only |
 | [peps.python.org](https://peps.python.org/pep-0723/) | — | not recorded | inspiration-only |
+| [platform.claude.com](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices) | Anthropic | Proprietary | inspiration-only |
 | [typing.python.org](https://typing.python.org/en/latest/spec/) | — | not recorded | inspiration-only |
 | [www.openholidaysapi.org](https://www.openholidaysapi.org/en/) | — | not recorded | inspiration-only |
 
